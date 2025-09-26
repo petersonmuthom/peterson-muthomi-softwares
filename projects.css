@@ -137,21 +137,17 @@ header{
   gap: 20px;
 }
 .card-1{
+  margin-top: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
   align-content: center;
   height: 300px;
-  width: 300px;
+  width: 340px;
+  flex-direction: column;
   border: 1.7px solid var(--main-color);
   border-radius: 30px;
   color: var(--text-color2);
-}
-.card-1 h1 i{
-  color: var(--text-color2);
-  width: 0px;
-  height: -1px;
-  margin: 0px 40px 0px 0px;
 }
 .card-1:hover{
   border: 1.7px solid var(--bg-color);
@@ -161,15 +157,15 @@ header{
   color: var(--main-color);
 }
 .card-1 h1{
+  margin: 0 0 10px 0; 
+  text-align: center;
   background-color: var(--menu-bar);
   border: 1.4px solid var(--main-blackish);
   color: var(--text-color2);
   border-radius: 40px;
-  font-size: 2rem;
+  font-size: 20px;
 }
-.card-1 ul li{
-  margin: 10px 0px 0px 0px; 
-}
+
 .card-1 img{
   margin-top: 30px;
   height: 200px;
