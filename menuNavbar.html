@@ -1,81 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Typography Background</title>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Square Cards</title>
   <style>
-    body{
-      background: url(img/bg.png);
-      background-position: cover;
-
+    body {
+      margin: 0;
+      padding: 20px;
+      background: #f4f4f4;
+      font-family: Arial, sans-serif;
     }
-   .spotify-player-wrapper {
-  max-width: 800px;
-  max-height: 800px;
-  margin: 4rem auto;
-  padding: 1.5rem;
-  background-color: #0F0F0F;
-  border-radius: 16px;
-  box-shadow: 0 0 12px rgba(0,0,0,0.4);
-  color: #E0E0E0;
-  font-family: 'JetBrains Mono', monospace;
-}
 
-.player-header {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-  margin-bottom: 1rem;
-}
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;       /* Allows cards to wrap on smaller screens */
+      justify-content: center; /* Aligns from left to right */
+      gap: 20px;
+    }
 
-.playlist-cover {
-  width: 80px;
-  height: 80px;
-  border-radius: 12px;
-  object-fit: cover;
-}
-
-.player-info h2 {
-  margin: 0;
-  text-transform: lowercase;
-  font-size: 1.25rem;
-}
-
-.play-btn {
-  display: inline-block;
-  margin-top: 0.5rem;
-  color: #64ffda;
-  text-decoration: none;
-  font-weight: bold;
-  transition: opacity 0.2s ease;
-}
-
-.play-btn:hover {
-  opacity: 0.7;
-}
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      flex: 1 1 200px;       /* Flexible width, min 200px */
+      max-width: 250px;
+      aspect-ratio: 1 / 1;   /* Makes it perfectly square */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
-  <section class="spotify-player-wrapper">
-  <div class="player-header">
-   
-    <div class="player-info">
-      <h2>the quiet commit</h2>
-      <p>a playlist for late commits & silent loops</p>
+  <div class="card-container">
+    <div class="card">Card 1</div>
+    <div class="card">Card 2</div>
+    <div class="card">Card 3</div>
   
-    </div>
   </div>
-
-  <iframe
-    style="border-radius:16px"
-    src="https://open.spotify.com/embed/playlist/48T9DDqg6sNyGheb1UfOnt?utm_source=generator&theme=0"
-    width="100%" height="152"
-    frameborder="0"
-    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-    loading="lazy">
-  </iframe>
-</section>
 </body>
 </html>

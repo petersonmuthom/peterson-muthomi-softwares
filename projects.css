@@ -118,11 +118,12 @@ header{
   text-align: center;
 }
 .projects-text{
-  border: 1px solid var(--main-color); ;
+  border: 1px solid var(--main-color);
+  border-radius: 30px;
   color: var(--bg-color);
   background-color: #2423232d;
   backdrop-filter: blur(2px);
-  font-size: 30px;
+  font-size: 40px;
   margin: -20px 380px 0px 380px ;
   padding: 100px 2px 0px 0px;
 }
@@ -130,15 +131,18 @@ header{
   margin: -10px 0px 0px 0px;
 }
 .pricing-card-holder{
-  margin: -130px 0px 0px 0px;
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;   
+  justify-content: center; 
+  gap: 20px;
 }
 .card-1{
-  margin: 240px 40px 0px 40px;
-  height: 340px;
-  width: 370px;
-  padding: 20px 20px 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  height: 300px;
+  width: 300px;
   border: 1.7px solid var(--main-color);
   border-radius: 30px;
   color: var(--text-color2);
