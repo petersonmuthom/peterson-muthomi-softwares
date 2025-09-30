@@ -124,7 +124,7 @@ header{
   width: 500px;
   padding: 0 -20px;
   color: var(--bg-color);
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(2px);
   font-size: clamp(20px, 40px, 30px);
   margin: 40px auto 0 auto;
 }
@@ -184,7 +184,7 @@ header{
 .footer-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 4px 2px;
+  gap: 2px;
   max-width: 1200px;
   padding: 0 70px;
   margin: auto;
@@ -204,7 +204,6 @@ header{
   text-transform: uppercase;
   font-weight: 400;
 }
-
 .footer-col ul {
   list-style: none;
   padding: 0;
@@ -228,7 +227,8 @@ header{
   border-top: 1px solid #333;
   padding-top: 15px;
   text-align: center;
-  font-size: 13px;
+  color: var(--text-color2);
+  font-size: 12px;
   display: flex;
   flex-direction: column;
   gap: 5px;
