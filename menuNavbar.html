@@ -6,129 +6,140 @@
   <title>Document</title>
 </head>
 <body>
-  <footer class="footer">
-  <div class="footer-container">
-    <!-- Profile -->
-    <div class="footer-profile">
-      <img src="your-profile.jpg" alt="Profile" />
+<header class="navbar">
+  <div class="nav-container">
+    <!-- Logo -->
+    <div class="nav-logo">
+      <img src="logo.png" alt="PM Softwares Logo">
     </div>
 
-    <!-- Quick Links -->
-    <div class="footer-col">
-      <h4>Quick Links</h4>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Résumé</a></li>
-        <li><a href="#">Testimonials</a></li>
-        <li><a href="#">Get In Touch</a></li>
-      </ul>
-    </div>
+    <!-- Menu -->
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html#Home" class="active">Home</a>
+      <a href="index.html#Projects">Projects</a>
+      <a href="index.html#About">About</a>
+      <a href="index.html#Contact">Contact</a>
+    </nav>
 
-    <!-- Socials -->
-    <div class="footer-col">
-      <h4>Socials</h4>
-      <ul>
-        <li><a href="#"><i class="fab fa-instagram"></i> Gram</a></li>
-        <li><a href="#"><i class="fab fa-reddit"></i> Reddit</a></li>
-        <li><a href="#"><i class="fab fa-github"></i> GitHub</a></li>
-        <li><a href="#"><i class="fab fa-discord"></i> Discord</a></li>
-        <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-        <li><a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
-      </ul>
-    </div>
-
-    <!-- Contacts -->
-    <div class="footer-col">
-      <h4>Contacts</h4>
-      <ul>
-        <li><i class="fas fa-phone"></i> +254 769 222675</li>
-        <li><a href="mailto:petersonmuthomi70@gmail.com">petersonmuthomi70@gmail.com</a></li>
-        <li><a href="#">Certifications</a></li>
-      </ul>
+    <!-- Hamburger -->
+    <div class="nav-toggle" id="navToggle">
+      ☰
     </div>
   </div>
+  <header class="navbar">
+  <div class="nav-container">
+    <!-- Logo -->
+    <div class="nav-logo">
+      <img src="logo.png" alt="PM Softwares Logo">
+    </div>
 
-  <div class="footer-bottom">
-    <p>© 2025. All Rights Reserved.</p>
-    <p>Built by: Peterson Muthomi.</p>
+    <!-- Menu -->
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html#Home" class="active">Home</a>
+      <a href="index.html#Projects">Projects</a>
+      <a href="index.html#About">About</a>
+      <a href="index.html#Contact">Contact</a>
+    </nav>
+
+    <!-- Hamburger -->
+    <div class="nav-toggle" id="navToggle">
+      ☰
+    </div>
   </div>
-</footer>
+</header>
+
 <style>
-  .footer {
-  background: #1e1c1c;
-  color: #fff;
-  padding: 40px 20px;
-  font-family: Arial, sans-serif;
+/* Navbar Base */
+.navbar {
+  background: #1e1c1c; /* dark background */
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-.footer-container {
+.nav-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
   max-width: 1200px;
   margin: auto;
 }
 
-.footer-profile img {
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-  object-fit: cover;
+/* Logo */
+.nav-logo img {
+  height: 45px;
+  width: auto;
 }
 
-.footer-col h4 {
-  margin-bottom: 15px;
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.footer-col ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-col ul li {
-  margin: 8px 0;
-}
-
-.footer-col ul li a {
-  color: #fff;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-.footer-col ul li a:hover {
-  color: #ffdf00; /* highlight on hover */
-}
-
-.footer-bottom {
-  margin-top: 30px;
-  border-top: 1px solid #333;
-  padding-top: 15px;
-  text-align: center;
-  font-size: 13px;
+/* Links */
+.nav-links {
   display: flex;
-  flex-direction: column;
-  gap: 5px;
+  gap: 25px;
 }
 
-/* Responsive Scaling */
+.nav-links a {
+  color: #d9d1cd;
+  text-decoration: none;
+  font-weight: 600;
+  position: relative;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+  color: #fff;
+}
+
+.nav-links a.active::after,
+.nav-links a:hover::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  left: 0;
+  bottom: -4px;
+}
+
+/* Hamburger (hidden on desktop) */
+.nav-toggle {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* Responsive */
 @media (max-width: 768px) {
-  .footer-container {
+  .nav-links {
+    position: absolute;
+    top: 65px;
+    right: 0;
+    background: #1e1c1c;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    width: 200px;
+    padding: 15px;
+    gap: 15px;
+    display: none; /* hidden by default */
   }
 
-  .footer-col {
-    width: 100%;
+  .nav-links.show {
+    display: flex;
+  }
+
+  .nav-toggle {
+    display: block;
   }
 }
 </style>
+<script>
+  const navToggle = document.getElementById("navToggle");
+  const navLinks = document.getElementById("navLinks");
+
+  navToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+  });
+</script>
 
 <!-- Font Awesome Icons -->
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
