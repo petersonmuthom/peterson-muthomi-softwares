@@ -50,7 +50,7 @@ header{
 
 }
 .logo{
-  margin: 0px 90px 0px -40px;
+
 }
 .logo img{
   width: 70px;
@@ -58,7 +58,7 @@ header{
 }
 .navi-list{
   display: flex;
-  margin: 0px 30px 0px 600px;
+
     
 }
 .navi-list li{
@@ -177,7 +177,7 @@ header{
   border-radius: 10px;
 }
 .footer {
-  height: 400px;
+  height: 490px;
   background: var(--main-blackish);
   color: #fff;
   padding: 40px 70px 40px 70px;
@@ -198,7 +198,7 @@ header{
   height: 60px;
 }
 .footer-col{
-  padding: 4px;
+  padding: 0px;
 }
 .footer-col h4 {
   margin-bottom: 15px;
@@ -236,76 +236,46 @@ header{
   flex-direction: column;
   gap: 5px;
 }
-
-/* Responsive Scaling */
-@media (max-width: 992px) {
-  .pricing-card-holder{
-    gap: 2px;
-  }
-  .footer-container {
-    grid-template-columns: repeat(2, 1fr);
-    text-align: left;
-  }
-  .card-1 {
-    margin: 100px 7px 0 7px;
-    width: 100px;
-    height: 250px;
-  }
+@media (max-width: 870px) {
   .card-1 h1{
     font-size: 24px;
   }
-  
-}
-@media (max-width: 750px) {
-  .card-1 h1{
-    font-size: 20px;
-  }
-  .card-1 {
-    margin: 100px 7px 0 7px;
-    height: 200px;
+  .footer-container {
+    padding: 0 30px;
   }
 }
-@media (max-width: 645px) {
+@media (max-width: 783px) {
   #project-cards{
-    height: 900px;
+    height: 940px;
   }
-  .card-1 {
-    margin: 100px 30px 0 30px;
-    height: 230px;
+  .card-1{
+    margin: 60px 10px 0 10px;
   }
-  .projects-text{
-    font-size: 25px;
-    width: 370px;
+  .footer {
+    height: 390px;
   }
-}
-@media (max-width: 521px) {
-   #project-cards{
-    height: 1100px;
-  }
-  .projects-text{
-    font-size: 22px;
-    width: 320px;
-  }
-  .card-1 {
-    margin: 50px 30px 0 30px;
-    height: 240px;
-    width: 240px;
+  .footer-container {
+    padding: 0 10px;
   }
 }
-@media (max-width: 320px) {
-   #project-cards{
-    height: 1000px;
+@media (max-width: 700px) {
+  .footer{
+    height: 700px;
+    padding: 20px 70px 90px 70px;
+
   }
-  .projects-text{
-    font-size: 19px;
-    width: 290px;
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
   }
-  .card-1 {
-    margin: 50px 30px 0 30px;
-    height: 200px;
-    width: 200px;
+  .footer-col ul li {
+    margin: 3px 0;
   }
-  .card-1 h1{
+  .footer-col ul li a {
     font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
   }
 }

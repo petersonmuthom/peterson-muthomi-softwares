@@ -3,145 +3,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Responsive Cards</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f4f4f4;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap; /* allow wrapping */
+      gap: 20px; /* space between cards */
+      justify-content: center;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      flex: 1 1 250px; /* grow, shrink, base size */
+      max-width: 300px;
+    }
+
+    .card h2 {
+      margin: 0 0 10px;
+      font-size: 1.2rem;
+    }
+
+    .card p {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    /* Mobile adjustments */
+    @media (max-width: 600px) {
+      .card-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
 </head>
 <body>
-<header class="navbar">
-  <div class="nav-container">
-    <!-- Logo -->
-    <div class="nav-logo">
-      <img src="logo.png" alt="PM Softwares Logo">
+
+  <div class="card-container">
+    <div class="card">
+      <h2>Card 1</h2>
+      <p>This is a responsive card example.</p>
     </div>
-
-    <!-- Menu -->
-    <nav class="nav-links" id="navLinks">
-      <a href="index.html#Home" class="active">Home</a>
-      <a href="index.html#Projects">Projects</a>
-      <a href="index.html#About">About</a>
-      <a href="index.html#Contact">Contact</a>
-    </nav>
-
-    <!-- Hamburger -->
-    <div class="nav-toggle" id="navToggle">
-      ☰
+    <div class="card">
+      <h2>Card 2</h2>
+      <p>Cards will adjust their size.</p>
+    </div>
+    <div class="card">
+      <h2>Card 3</h2>
+      <p>On small screens, they stack.</p>
     </div>
   </div>
-  <header class="navbar">
-  <div class="nav-container">
-    <!-- Logo -->
-    <div class="nav-logo">
-      <img src="logo.png" alt="PM Softwares Logo">
-    </div>
 
-    <!-- Menu -->
-    <nav class="nav-links" id="navLinks">
-      <a href="index.html#Home" class="active">Home</a>
-      <a href="index.html#Projects">Projects</a>
-      <a href="index.html#About">About</a>
-      <a href="index.html#Contact">Contact</a>
-    </nav>
-
-    <!-- Hamburger -->
-    <div class="nav-toggle" id="navToggle">
-      ☰
-    </div>
-  </div>
-</header>
-
-<style>
-/* Navbar Base */
-.navbar {
-  background: #1e1c1c; /* dark background */
-  padding: 10px 20px;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-.nav-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: auto;
-}
-
-/* Logo */
-.nav-logo img {
-  height: 45px;
-  width: auto;
-}
-
-/* Links */
-.nav-links {
-  display: flex;
-  gap: 25px;
-}
-
-.nav-links a {
-  color: #d9d1cd;
-  text-decoration: none;
-  font-weight: 600;
-  position: relative;
-}
-
-.nav-links a.active,
-.nav-links a:hover {
-  color: #fff;
-}
-
-.nav-links a.active::after,
-.nav-links a:hover::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  background: #fff;
-  left: 0;
-  bottom: -4px;
-}
-
-/* Hamburger (hidden on desktop) */
-.nav-toggle {
-  display: none;
-  font-size: 26px;
-  cursor: pointer;
-  color: #fff;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .nav-links {
-    position: absolute;
-    top: 65px;
-    right: 0;
-    background: #1e1c1c;
-    flex-direction: column;
-    width: 200px;
-    padding: 15px;
-    gap: 15px;
-    display: none; /* hidden by default */
-  }
-
-  .nav-links.show {
-    display: flex;
-  }
-
-  .nav-toggle {
-    display: block;
-  }
-}
-</style>
-<script>
-  const navToggle = document.getElementById("navToggle");
-  const navLinks = document.getElementById("navLinks");
-
-  navToggle.addEventListener("click", () => {
-    navLinks.classList.toggle("show");
-  });
-</script>
-
-<!-- Font Awesome Icons -->
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
 </html>
