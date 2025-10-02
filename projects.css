@@ -122,10 +122,10 @@ header{
   border-radius: 30px;
   justify-content: center;
   width: 500px;
-  padding: 0 -20px;
+  padding: 0 -20%;
   color: var(--bg-color);
   backdrop-filter: blur(2px);
-  font-size: clamp(20px, 40px, 30px);
+  font-size: clamp(30px, 24px, 20px);
   margin: 40px auto 0 auto;
 }
 .projects-text-ul{
@@ -245,6 +245,10 @@ header{
   }
 }
 @media (max-width: 783px) {
+  .projects-text{
+    font-size: 27px;
+    width: 300;
+  }
   #project-cards{
     height: 940px;
   }
@@ -259,6 +263,10 @@ header{
   }
 }
 @media (max-width: 700px) {
+  .projects-text{
+    font-size: 24px;
+    width: 100;
+  }
   .footer{
     height: 540px;
     padding: 20px 70px 90px 70px;
@@ -277,5 +285,23 @@ header{
     color: #fff;
     text-decoration: none;
     transition: 0.3s;
+  }
+}
+@media (max-width: 521px) {
+  .projects-text{
+    font-size: 24px;
+    padding: 0 -30%;
+    width: 370px;
+  }
+  #project-cards{
+    height: 1300px;
+  }
+  .footer{
+    padding: 40px 20px 40px 20px;
+  }
+   .footer-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4px;
   }
 }
