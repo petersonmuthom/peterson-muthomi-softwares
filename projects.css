@@ -1,20 +1,22 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    font-family: "Oswald", sans-serif;
-    scroll-behavior: smooth;
-    scrollbar-color:#dacccc #242323; 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  scroll-behavior: smooth;
+  scrollbar-color:#dacccc #242323; 
+  -webkit-tap-highlight-color: transparent;
+  -webkit-focus-ring-color: transparent;
 }
 ::selection {
-    background-color: var(--main-blackish);
-    color: var(--text-color2);
+  background-color: var(--main-blackish);
+  color: var(--text-color2);
 }
 ::-moz-selection { /*    For Firefox ;)    */
-    background-color: var(--main-blackish);
-    color: var(--text-color2);
+  background-color: var(--main-blackish);
+  color: var(--text-color2);
 }  
 :root{
   --bg-color: #0c0c0c;
@@ -59,31 +61,31 @@ header{
   display: flex;
 }
 .navi-list li{
-    display: inline-block;
-    margin: 0 25px;
-    font-size: 24px;
-    font-weight: 700;
+  display: inline-block;
+  margin: 0 25px;
+  font-size: 24px;
+  font-weight: 700;
 }
 .navi-list  li a{
-    font-size: 24px;
-    font-weight: 700;
-    color: var(--text-color2);
-    position: relative;
-    display: inline-block;
-    margin-bottom: 4px;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text-color2);
+  position: relative;
+  display: inline-block;
+  margin-bottom: 4px;
 }
 .navi-list  li a:hover{
-    color: var(--text-color1);
+  color: var(--text-color1);
 }
 .navi-list  li a::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    height: 1px;
-    background-color: var(--text-color1);
-    transition: width 0.3s ease-in-out;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  background-color: var(--text-color1);
+  transition: width 0.3s ease-in-out;
 }
 .navi-list  li a:hover::after {
   width: 100%;
@@ -99,10 +101,10 @@ header{
   font-size: 24px;
 }
 .Uno ::after{
-    display: none;
+  display: none;
 }
 .Uno :hover::after {
-    width: 0%;
+  width: 0%;
 }
 
 #project-cards{

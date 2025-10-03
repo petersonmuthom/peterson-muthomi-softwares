@@ -2747,7 +2747,7 @@ form input {
     font-size: 83px;
     font-weight: 800;
   }
-    .footer-container {
+  .footer-container {
     padding: 0 30px;
   }
 }
@@ -3009,6 +3009,9 @@ form input {
   .footer-title-text{
     font-size: 75px;
     font-weight: 900;
+  }
+  .footer-container {
+    padding: 0 10px;
   }
 }
 @media only screen and (max-width: 780px) {
@@ -3552,10 +3555,25 @@ form input {
     font-size: 65px;
     font-weight: 800;
   }
-  .box-3{
-    margin: -320px 0px -30px -124px;
+  .footer{
+    height: 540px;
+    padding: 40px 70px 90px 70px;
+
   }
- 
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .footer-col ul li {
+    margin: 3px 0;
+  }
+  .footer-col ul li a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
 } 
 @media only screen and (max-width: 670px) {
   body{
@@ -4120,24 +4138,24 @@ form input {
     font-size: 37px;
     padding: 20px 16px 0px 16px;
   }
-  #footer{
-    height: 100px;
+   .footer{
+    height: 490px;
+    padding: 40px 20px 40px 20px;
+  }.footer-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px, 10px;
   }
-  .footer-title{
-    padding: 130px -240px 0px 0px;
+  .footer-col h4{
+    margin-bottom: 8px;
+    font-size: 14px;
   }
-  .footer-title-text{
-    font-size: 45px;
-    font-weight: 800;
+  .footer-col ul li {
+    margin: 3px 0;
   }
-  .box-A1{
-    margin: 400px -100px -40px 0px;
-  }
-  .box-2 h3{
-    margin: -54px -90px 0px 0px;
-  }
-  .box-3{
-    margin: -320px 0px -30px -60px;
+  .footer-col ul li a{
+    font-size: 15px;
+
   }
 }
 @media (max-width: 480px) {
@@ -4770,8 +4788,12 @@ form input {
     font-size: 36px;
     font-weight: 700;
   }
-  .box-1{
-    margin: -494px -30px -190px -30px;
+  .footer{
+    height: 490px;
+    padding: 40px 10px 40px 10px;
+  }
+  .footer-bottom {
+    font-size: 11px;
   }
 }
 @media (max-width: 374px) {
@@ -5194,6 +5216,18 @@ form input {
   .footer-title-text{
     font-size: 28px;
     font-weight: 800;
+  }
+  .footer{
+    height: 490px;
+    padding: 40px 4px 40px 4px;
+  }
+  .footer-col h4{
+    margin-bottom: 8px;
+    font-size: 12px;
+  }
+  .footer-col ul li a{
+    font-size: 13px;
+
   }
 }  
 @media (max-width: 295px) {
