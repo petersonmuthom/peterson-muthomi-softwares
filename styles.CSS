@@ -1023,254 +1023,65 @@ form input {
   transform: translateY(-7px);
 }
 
-#footer{
-  position: relative;
-  width: 100%;
-  height: 200px;
-  background-color: var(--text-color2);
-  text-align: center;
-  background-size: cover;
-  background-position: center;
-  align-items: center;
-}
-.footer-title{
-  text-transform: uppercase;
-  line-height: 1;
-  text-align: center;
-  padding: 30px 0px 0px 0px;
-}
-.footer-title-text{
-  color: var(--menu-bar);
-  font-size: 130px;
-  font-weight: 700;
-  position: relative;
-}
-#footer-2{
-  position: relative;
-  width: 100%;
+.footer {
   height: 400px;
-  background-color: #242323;
-  text-align: center;
-  background-size: cover;
-  background-position: center;
-  align-items: center;
+  background: var(--main-blackish);
+  color: #fff;
+  padding: 40px 70px 40px 70px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
   display: grid;
-  grid-auto-flow: column;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
+  gap: 2px;
+  max-width: 1200px;
+  padding: 0 70px;
+  margin: auto;
+  text-align: left;
 }
-.box-A1{
-  margin: 0px 0px 0px 170px;
-}
-.box-A1 img{
-  margin: 50px 0px 200px 0px;
-  height: 60px;
+.footer-profile img {
   width: 60px;
+  height: 60px;
 }
-.box-A1 h4{
-  margin: 30px -100px 0px 0px;
+.footer-col{
+  padding: 0px;
+}
+.footer-col h4 {
+  margin-bottom: 15px;
   font-size: 16px;
-  font-weight: 400;
   color: var(--text-color2);
-}
-.box-1{
-  text-align: left;
-  margin: -50px 0px 0px 80px;
-}
-.box-1 ul li a{
-  color: var(--text-color1); 
+  text-transform: uppercase;
   font-weight: 400;
-  font-size: 18px;
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  margin-bottom: 4px;
-  
 }
-.box-1 ul li a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 1px;
-  background-color: white;
-  transition: width 0.3s ease-in-out;
+.footer-col ul {
+  list-style: none;
+  padding: 0;
 }
-.box-1 ul li a:visited{
-  color: var(--text-color2);
-}
-.box-1 ul li a:hover::after {
-  width: 100%;
-}
-.box-1 h4{
-  color: var(--text-color2);
-  font-weight: 400;
-  font-size: 16px;
-  padding: 4px 0px 4px 0px;
-  
-}
-.box-2{
-  color: var(--text-color1);
-  text-align: left;
-  margin: 55px 0px 0px -40px;
-}
-.box-2 ul li a{
-  color: var(--text-color1); 
-  font-weight: 400;
-  font-size: 18px;
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  margin-bottom: 4px;
-}
-.box-2 ul li a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 1px;
-  background-color: white;
-  transition: width 0.3s ease-in-out;
-}
-.box-2 ul li a:visited{
-  color: var(--text-color2);
-}
-.box-2 ul li a:hover::after {
-  width: 100%;
-}
-.box-2 h4{
-  color: var(--text-color2);
-  font-weight: 400;
-  font-size: 16px;
-  margin: -6px 0px 0px 0px;
-  padding: 0px 0px 4px 0px;
-  
-}
-.box-2 h3{
-  color: var(--text-color2);
-  font-weight: 400;
-  font-size: 16px;
-  margin: -6px -120px 0px 200px;
-  padding: 0px 0px 4px 0px;
-  
-}
-.box-3{
-  color: var(--text-color1);
-  text-align: left;
-  margin: -109px 0px 0px -160px;
-}
-.box-3 h4{
-  color: var(--text-color2);
-  font-weight: 400;
-  font-size: 16px;
-  padding: 4px 0px 4px 0px; 
-}
-.box-3 ul li{
-  color: var(--text-color1); 
-  font-weight: 400;
-  font-size: 18px;
-  position: relative;
-  display: inline-block;
-  margin-bottom: 4px;
-}
-.box-3 ul li a{
-  color: var(--text-color1); 
-  font-weight: 400;
-  font-size: 18px;
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  margin-bottom: 4px;
-}
-.box-3 ul li a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 1px;
-  background-color: white;
-  transition: width 0.3s ease-in-out;
-}
-.box-3 ul li a:hover::after {
-  width: 100%;
-}
-.box-4{
-  color: var(--text-color1);
-  text-align: left;
-  margin: -140px 0px 0px -230px;
-}
-.box-4 h4{
-  color: var(--text-color2);
-  font-weight: 400;
-  font-size: 16px;
-  padding: 4px 0px 4px 0px; 
-}
-.box-4 ul li a{
-  color: var(--text-color1); 
-  font-weight: 400;
-  font-size: 18px;
-  position: relative;
-  display: inline-block;
-  margin-bottom: 4px;
-}
-.box-4 ul li a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 1px;
-  background-color: white;
-  transition: width 0.3s ease-in-out;
-}
-.box-4 ul li a:hover::after {
-  width: 100%;
-}
-.spotify-player-wrapper {
-  max-width: 200px;
-  margin: 4rem auto;
-  padding: 1.5rem;
-  background-color: #0F0F0F;
-  border-radius: 16px;
-  box-shadow: 0 0 12px rgba(0,0,0,0.4);
-  color: #E0E0E0;
-  font-family: 'JetBrains Mono', monospace;
+.footer-col ul li {
+  margin: 8px 0;
 }
 
-.player-header {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-  margin-bottom: 1rem;
-}
-
-.playlist-cover {
-  width: 40px;
-  height: 40px;
-  border-radius: 12px;
-  object-fit: cover;
-}
-
-.player-info h2 {
-  margin: 0;
-  text-transform: lowercase;
-  font-size: 1.25rem;
-}
-
-.play-btn {
-  display: inline-block;
-  margin-top: 0.5rem;
-  color: #64ffda;
+.footer-col ul li a {
+  font-size: 18px;
+  color: #fff;
   text-decoration: none;
-  font-weight: bold;
-  transition: opacity 0.2s ease;
+  transition: 0.3s;
 }
 
-.play-btn:hover {
-  opacity: 0.7;
+.footer-col ul li a:hover {
+  color: #afa6a6;
+}
+.footer-bottom {
+  margin-top: 30px;
+  border-top: 1px solid #333;
+  padding-top: 15px;
+  text-align: center;
+  color: var(--text-color2);
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 @media only screen and (max-width: 1350px) {
   header{
@@ -2936,26 +2747,8 @@ form input {
     font-size: 83px;
     font-weight: 800;
   }
-  .box-A1{
-    margin: -24px 0px 0px 40px;
-  }
-  .box-A1 h4{
-    margin: 30px -120px 0px 0px;
-    font-size: 14px;
-  }
-  .box-1{
-    margin: -80px 0px 0px 30px;
-  }
-  .box-2{
-    margin: 27px 0px 0px -30px;
-  }
-  .box-2 h3{
-    font-weight: 400;
-    font-size: 14px;
-    margin: 0px -180px 0px 150px;
-  }
-  .box-3{
-    margin: -60px 0px 80px -90px;
+    .footer-container {
+    padding: 0 30px;
   }
 }
 @media only screen and (max-width: 850px) {

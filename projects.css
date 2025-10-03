@@ -27,7 +27,6 @@
   --p-font: 4rem;
 }
 html{
-  max-width: 100%;
   overflow-x: hidden;
 }
 
@@ -175,7 +174,7 @@ header{
   border-radius: 10px;
 }
 .footer {
-  height: 490px;
+  height: 400px;
   background: var(--main-blackish);
   color: #fff;
   padding: 40px 70px 40px 70px;
@@ -304,8 +303,7 @@ header{
   .footer{
     height: 490px;
     padding: 40px 20px 40px 20px;
-  }
-   .footer-container {
+  }.footer-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px, 10px;
