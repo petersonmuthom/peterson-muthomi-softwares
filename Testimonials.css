@@ -143,15 +143,11 @@ body{
   backdrop-filter: blur(2px);
   color: var(--main-color);
 }
-.card-1 h1{
-  padding: 0;
-  align-items: center;
-  text-align: center;
-  margin: 10px 0; 
-  background-color: var(--menu-bar);
-  color: var(--text-colo-2);
+.card-1 p{
+  margin: 40px 0; 
+  color: var(--main-blackish);
   border-radius: 30px;
-  font-size: 30px;
+  font-size: 18px;
 }
 .card-1 img{
   margin-top: 30px;
@@ -218,20 +214,20 @@ body{
   gap: 5px;
 }
 @media (max-width: 870px) {
-  .card-1 h1{
-    font-size: 24px;
-  }
   .footer-container {
     padding: 0 30px;
   }
 }
 @media (max-width: 783px) {
-
   #project-cards{
     height: 940px;
   }
   .card-1{
     margin: 60px 10px 0 10px;
+  }
+  .card-1 p {
+    margin: 20px 0;
+    font-size: 14px;
   }
   .footer {
     height: 390px;
