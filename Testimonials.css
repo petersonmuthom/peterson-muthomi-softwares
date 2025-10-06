@@ -133,6 +133,7 @@ body{
   border-radius: 30px;
   color: var(--text-color2);
   flex: 1 1 240px;
+  backdrop-filter: blur(1px);
   max-width: 300px;
 
 }
