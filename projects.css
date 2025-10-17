@@ -149,7 +149,6 @@ header{
   color: var(--text-color2);
   flex: 1 1 240px;
   max-width: 340px;
-
 }
 .card-1:hover{
   border: 1.7px solid var(--bg-color);
@@ -168,12 +167,11 @@ header{
   border-radius: 30px;
   font-size: 30px;
 }
-
 .card-1 img{
   margin-top: 30px;
-  height: 200px;
-  width: 370px;
-  border-radius: 10px;
+  height: 170px;
+  width: 320px;
+  border-radius: 0px;
 }
 .footer {
   height: 400px;
