@@ -1021,7 +1021,12 @@ form input {
 .reachout-icons i:hover{
   transform: translateY(-7px);
 }
-
+#thanks{
+  background-color: var(--text-color2);
+  color: var(--main-blackish);
+  font-size: 50px;
+  text-align: center;
+}
 .footer {
   height: 400px;
   background: var(--main-blackish);
@@ -2057,6 +2062,9 @@ form input {
   .contacts-inputs{
     width: 370px;
     height: 47px;
+  }
+  #thanks{
+    font-size: 30px;
   }
   #footer-2{
     height: 400px; 
@@ -3798,9 +3806,8 @@ form input {
     width: 820px; 
     padding: 10px 262px 70px 64px;
   }
-  .footer-title-text{
-    font-size: 56px;
-    font-weight: 800;
+  #thanks{
+    font-size: 20px;
   }
   .box-3{
     margin: -320px 0px -30px -108px;
