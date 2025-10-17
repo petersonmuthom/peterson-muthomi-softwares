@@ -542,21 +542,25 @@ section{
     visibility: hidden;
     justify-content: flex-start;
     align-items: center;
-    width: 380px; /* Ensures the image scales to fit the container */
-    height: 380px;
+    width: 400px; /* Ensures the image scales to fit the container */
+    height: 400px;
     object-fit: contain;
     display: flex;
     position: absolute;
     margin: 0px -40px 0px 170px;
+    transition: all 0.4s ease;
   }
-  
+.tab-visual-item img:hover {
+  transform: scale(1.05);
+  z-index: 10;
+}
   .tab-visual-item.active {
     visibility: visible;
   }
   
   .tab-image {
-    width: 380px; /* Ensures the image scales to fit the container */
-    height: 380px;
+    width: 480px; /* Ensures the image scales to fit the container */
+    height: 480px;
     object-fit: contain;
 
   }
