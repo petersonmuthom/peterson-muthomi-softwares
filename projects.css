@@ -50,9 +50,6 @@ header{
   transition: all .50s ease;
 
 }
-.logo{
-
-}
 .logo img{
   width: 70px;
   height: 60px; 
@@ -170,7 +167,7 @@ header{
 .card-1 img{
   margin-top: 20px;
   margin-bottom: 30px;
-  height: 170px;
+  height: 157px;
   width: 320px;
   border-radius: 0px;
 }
