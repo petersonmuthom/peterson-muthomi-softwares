@@ -276,7 +276,7 @@ header{
   .footer-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 10px 70px;
   }
   .footer-col ul li {
     margin: 3px 0;
