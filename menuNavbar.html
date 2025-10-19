@@ -5,229 +5,182 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Responsive </title>
   <style>
-.tab-layout {
-  display: flex;
-  flex-direction: column; /* Stack from top to bottom */
-  gap: 2rem; /* Add spacing between the sections (optional) */
+.pricing-section {
+  text-align: center;
+  margin-top: 70px;
+  padding: 0 5%;
 }
 
-.tab-layout-col {
-  width: 100%; /* Make each column full width */
+.pricing-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.subtitle {
+  color: #bbb;
+  margin-bottom: 40px;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+/* ---------- Plan Cards ---------- */
+.plan-card {
+  background-color: #1b1b1b;
+  border-radius: 20px;
+  padding: 30px 25px;
+  width: 300px;
+  text-align: left;
+  border: 1px solid #2a2a2a;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plan-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.05);
+}
+
+.plan-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.icon {
+  font-size: 1.3rem;
+}
+
+.plan-card h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.price {
+  font-weight: 600;
+  color: #d8d8d8;
+  margin-bottom: 15px;
+}
+
+.plan-card ul {
+  list-style: none;
+}
+
+.plan-card ul li {
+  padding: 6px 0;
+  font-size: 0.95rem;
+}
+
+.excluded {
+  color: #888;
+  text-decoration: line-through;
+}
+
+.featured {
+  border: 1px solid #c9a63c;
+  background: linear-gradient(145deg, #1e1e1e, #111);
+}
+
+/* ---------- Responsive Design ---------- */
+@media (max-width: 992px) {
+  .pricing-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .plan-card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar nav {
+    margin-top: 15px;
+  }
+
+  .plan-card {
+    padding: 25px 20px;
+  }
+
+  .pricing-section h1 {
+    font-size: 2rem;
+  }
 }
   </style>
 </head>
 <body>
 
- <div id="Projects">
-      <section class="cloneable">
-        <div data-tabs="wrapper" class="tab-layout">
-          <div class="tab-layout-col">
-            <div class="tab-layout-container">
-              <hr style="border: 1px solid #dacccc;"  data-aos="zoom-in" data-aos-duration="1400">
-              <div class="tab-container">
-                <div class="tab-container-top">
-                  <h1 class="tab-layout-heading">Featured Projects</h1>
-                  <div data-flip-button="wrap" data-tabs="nav" class="filter-bar">
-                    <button data-tabs="button" data-flip-button="button" class="filter-button active">
-                      <div class="filter-button__p">Websites</div>
-                      <div data-flip-button="bg" class="tab-button__bg"></div>
-                    </button>
-                    <button data-tabs="button" data-flip-button="button" class="filter-button">
-                      <div class="filter-button__p">Applications</div>
-                    </button>
-                  </div>
-                </div>
-                <div class="tab-container-bottom">
-                  <div data-tabs="content-wrap" class="tab-content-wrap">
-                    <div data-tabs="content-item" class="tab-content-item active">
-                      <h2 data-tabs-fade="" class="tab-content__heading">See some of my Websites creations</h2>
-                      <p class="content-p opacity--80"> <a href="projects.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
-                    </div>
-                    <div data-tabs="content-item" class="tab-content-item">
-                      <h2 data-tabs-fade="" class="tab-content__heading">Check out more of my Apps</h2>
-                      <p class="content-p opacity--80"><a href="projects.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
-                    </div>
-                   
-                  </div>
-                  
-                </div>
-              </div>
-              <hr style="border: 1px solid #dacccc;"  data-aos="zoom-in" data-aos-duration="1400">
-            </div>
-          </div>
-          <div class="tab-layout-col">
-            <div data-tabs="visual-wrap" class="tab-visual-wrap">
-              <div data-tabs="visual-item" class="tab-visual-item active">
-                <img src="img/folio.PNG" loading="lazy" class="tab-image">   
-              </div>
-              <div data-tabs="visual-item" class="tab-visual-item">
-                <img src="img/folio.PNG" loading="lazy" class="tab-image" alt="">
-              </div>
-            </div>
-            <a href="#Testimonials" data-aos="zoom-in" data-aos-duration="1400"> <div class="scroll-down-projects">
-              
-            </div></a>
-          </div>
+  <section class="pricing-section">
+    <h1>Website Pricing</h1>
+    <p class="subtitle">No hidden fees, zero fluff.</p>
+
+    <div class="pricing-container">
+      <!-- Basic Plan -->
+      <div class="plan-card">
+        <div class="plan-header">
+          <span class="icon">💡</span>
+          <h2>BASIC PLAN</h2>
         </div>
-      </section>
+        <p class="price">USD 50 | KSH 6,400</p>
+        <ul>
+          <li>1 page layout = 5 sections (About, Contact, etc)</li>
+          <li>Up to 8 client-provided images + 2 videos.</li>
+          <li>Basic Contact form with email delivery.</li>
+          <li>Responsive development + Custom design.</li>
+          <li>Social media integration - icons (Unlimited)</li>
+          <li>Delivery Time: 4–6 calendar days</li>
+          <li class="excluded">Domain not included (Setup assistance available)</li>
+        </ul>
+      </div>
+
+      <!-- Diamond Plan -->
+      <div class="plan-card featured">
+        <div class="plan-header">
+          <span class="icon">💎</span>
+          <h2>DIAMOND PLAN</h2>
+        </div>
+        <p class="price">USD 100 | KSH 12,900</p>
+        <ul>
+          <li>Everything in Basic.</li>
+          <li>2–4 page layouts (Multi-page website).</li>
+          <li>Up to 16 client-provided images + 4 videos.</li>
+          <li>Advanced SEO: Analytics + Console + Meta boost.</li>
+          <li>Legal pages (terms & privacy) + map integration.</li>
+          <li>Delivery Time: 6–10 calendar days.</li>
+          <li>3 update sessions (post-development).</li>
+        </ul>
+      </div>
+
+      <!-- Premium Plan -->
+      <div class="plan-card">
+        <div class="plan-header">
+          <span class="icon">⭐</span>
+          <h2>PREMIUM PLAN</h2>
+        </div>
+        <p class="price">USD 150 | KSH 19,400</p>
+        <ul>
+          <li>Everything in Diamond.</li>
+          <li>4–10 page layouts.</li>
+          <li>Up to 32 client-provided images + 6 videos.</li>
+          <li>Basic SSL Config + Security plugins included.</li>
+          <li>Blog + E-Commerce Integration.</li>
+          <li>Delivery Time: 10–14 calendar days.</li>
+          <li>6 update sessions (post-development).</li>
+        </ul>
+      </div>
     </div>
+  </section>
 </body>
 <script>
- function toggleMenu() {
-  document.querySelector(".navlist").classList.toggle("active");
-  document.querySelector(".hamburger").classList.toggle("active");
-}
-document.addEventListener("click", function (event) {
-  const navList = document.querySelector(".navlist");
-  const hamburger = document.querySelector(".hamburger");
-
-
-  if (navList.classList.contains("active")) {
-    if (!navList.contains(event.target) && !hamburger.contains(event.target)) {
-      navList.classList.remove("active");
-      hamburger.classList.remove("active");
-    }
-  }
-});
-
-var copy = document.querySelector(".logos-slide").cloneNode(true);
-      document.querySelector(".logos").appendChild(copy);
-
-
-gsap.registerPlugin(CustomEase, Flip )
-
-CustomEase.create("osmo-ease", "0.625, 0.05, 0, 1")
-
-gsap.defaults({
-  ease: "osmo-ease",
-  duration: 0.8,
-});
-
-function initFlipButtons() {
-  let wrappers = document.querySelectorAll('[data-flip-button="wrap"]');
-  
-  wrappers.forEach((wrapper) => {
-    let buttons = wrapper.querySelectorAll('[data-flip-button="button"]');
-    let bg = wrapper.querySelector('[data-flip-button="bg"]');
-    
-    buttons.forEach(function (button) {
-      // mouse enter
-      button.addEventListener("mouseenter", function () {
-        const state = Flip.getState(bg);
-        this.appendChild(bg);
-        Flip.from(state, {
-          duration: 0.4,
-        });
-      });
-
-      //focus for keyboard navigation
-      button.addEventListener("focus", function () {
-        const state = Flip.getState(bg);
-        this.appendChild(bg);
-        Flip.from(state, {
-          duration: 0.4,
-        });
-      });
-
-      // mouse leave ;)
-      button.addEventListener("mouseleave", function () {
-        const state = Flip.getState(bg);
-        const activeLink = wrapper.querySelector(".active");
-        activeLink.appendChild(bg);
-        Flip.from(state, {
-          duration: 0.4,
-        });
-      });
-
-      // Handle blur to reset background for keyboard navigation
-      button.addEventListener("blur", function () {
-        const state = Flip.getState(bg);
-        const activeLink = wrapper.querySelector(".active");
-        activeLink.appendChild(bg);
-        Flip.from(state, {
-          duration: 0.4,
-        });
-      });
-    });
-  });
-}
-
-function initTabSystem(){
-  let wrappers = document.querySelectorAll('[data-tabs="wrapper"]')
-  
-  wrappers.forEach((wrapper) => {
-    let nav = wrapper.querySelector('[data-tabs="nav"]')
-    let buttons = nav.querySelectorAll('[data-tabs="button"]')
-    let contentWrap = wrapper.querySelector('[data-tabs="content-wrap"]')
-    let contentItems = contentWrap.querySelectorAll('[data-tabs="content-item"]')
-    let visualWrap = wrapper.querySelector('[data-tabs="visual-wrap"]')
-    let visualItems = visualWrap.querySelectorAll('[data-tabs="visual-item"]')
-
-    let activeButton = buttons[0];
-    let activeContent = contentItems[0];
-    let activeVisual = visualItems[0];
-    let isAnimating = false;
-
-    function switchTab(index, initial = false) {
-      if (!initial && (isAnimating || buttons[index] === activeButton)) return; // ignore click if the clicked button is already active 
-      isAnimating = true; // keep track of whether or not one is moving, to prevent overlap
-
-      const outgoingContent = activeContent;
-      const incomingContent = contentItems[index];
-      const outgoingVisual = activeVisual;
-      const incomingVisual = visualItems[index];
-
-      let outgoingLines = outgoingContent.querySelectorAll("[data-tabs-fade]") || [];
-      let incomingLines = incomingContent.querySelectorAll("[data-tabs-fade]");
-
-      const timeline = gsap.timeline({
-        defaults:{
-          ease:"power3.inOut"
-        },
-        onComplete: () => {
-          if(!initial){
-            outgoingContent && outgoingContent.classList.remove("active");
-            outgoingVisual && outgoingVisual.classList.remove("active");            
-          }
-          activeContent = incomingContent;
-          activeVisual = incomingVisual;
-          isAnimating = false;
-        },
-      });
-
-      incomingContent.classList.add("active");
-      incomingVisual.classList.add("active");
-
-      timeline
-        .to(outgoingLines, { y: "-2em", autoAlpha:0 }, 0)
-        .to(outgoingVisual, { autoAlpha: 0, xPercent: 3 }, 0)
-        .fromTo(incomingLines, { y: "2em", autoAlpha:0 }, { y: "0em", autoAlpha:1, stagger: 0.075 }, 0.4)
-        .fromTo(incomingVisual, { autoAlpha: 0, xPercent: 3 }, { autoAlpha: 1, xPercent: 0 }, "<");
-
-      activeButton && activeButton.classList.remove("active");
-      buttons[index].classList.add("active");
-      activeButton = buttons[index];
-    }
-
-    switchTab(0, true); // on page load
- 
-    buttons.forEach((button, i) => {
-      button.addEventListener("click", () => switchTab(i)); 
-    });
-
-    contentItems[0].classList.add("active");
-    visualItems[0].classList.add("active");
-    buttons[0].classList.add("active");    
-    
-  })
-  
-}
-
-document.addEventListener("DOMContentLoaded", () =>{
-  initTabSystem()
-  initFlipButtons()
-})
-
-
 </script>
 </html>

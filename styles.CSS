@@ -810,10 +810,6 @@ section{
   font-weight: 700;
   color: var(--main-blackish);
 }
-
-
-
-
 #pricing{
   position: relative;
   width: 100%;
@@ -824,6 +820,8 @@ section{
   background-position: center;
   align-items: center;
   text-align: center;
+  margin-top: 70px;
+  padding: 0 0%;
 }
 #pricing h3{
   padding: 100px 0px 0px 0px;
@@ -836,7 +834,9 @@ section{
 }
 .pricing-card-holder{
   display: flex;
-  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px 4px;
 }
 .card-1{
   margin: 50px 30px 0px 40px;
@@ -894,15 +894,6 @@ section{
   align-items: center;
  
 }
-
-
-
-
-
-
-
-
-
 #Get-in-Touch{
   position: relative;
   width: 100%;
@@ -1124,6 +1115,7 @@ form input {
     font-size: 23px;
     font-weight: 600;
   }
+
   .listings{
     margin-left: 10px;
     font-weight: 320;
@@ -1260,6 +1252,10 @@ form input {
     height: 360px;
     width: 360px;
   }
+  #pricing {
+    height: 70%;
+    padding: auto 0%;
+  }
   #pricing h3{
     font-size: 3rem;
     font-weight: 600;
@@ -1267,11 +1263,6 @@ form input {
   #pricing h4{
     font-size: 23px;
     font-weight: 600;
-  }
-  .card-1{
-    margin: 60px 30px 0px 20px;
-    height: 360px;
-    width: 360px;
   }
   .card-1 h1{
     font-size: 2rem;
@@ -1441,11 +1432,7 @@ form input {
    font-size: 22px;
     font-weight: 600;
   }
-  .card-1{
-    margin: 60px 20px 0px 10px;
-    height: 360px;
-    width: 380px;
-  }
+
   .card-1 h1{
     font-size: 2rem;
   }
@@ -1723,12 +1710,6 @@ form input {
   }
   #pricing{
     height: 670px;
-  }
-  .card-1{
-    margin: 60px 10px 0px 10px;
-    height: 340px;
-    width: 440px;
-    padding: 20px 17px 20px 17px;
   }
   .card-1 h1{
     font-size: 1.6rem;
@@ -2026,21 +2007,7 @@ form input {
     width: 300px;
   }
   #pricing{
-    height: 700px;
-    grid-template-columns: 2fr;
-    text-align: center;
-    align-items: center;
-  }
-  .pricing-card-holder{
-    display: flex;
-    text-align: center;
-    align-items: center;
-  }
-  .card-1{
-    margin: 60px 8px 0px 10px;
-    height: 340px;
-    width: 460px;
-    padding: 18px 14px 20px 14px;
+    height: 100%;
   }
   .call-action-content{
     width: 900px; 
@@ -2209,6 +2176,17 @@ form input {
     height: 280px;
     width: 280px;
   }
+  #pricing {
+    height: 100%;
+    padding: 0 20%;
+  }
+  .pricing-card-holder {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-1 {
+    width: 70%;
+  }
   .call-to-action {
     height: 380px;
   }
@@ -2370,14 +2348,7 @@ form input {
     margin: -100px -20px 0px 100px;
   }
   #pricing{
-    height: 637px;
-  }
-  .card-1{
-    border-radius: 21px;
-    margin: 60px 10px 0px 10px;
-    height: 320px;
-    width: 470px;
-    padding: 17px 13px 20px 13px;
+    padding: 0 20%;
   }
   .card-1 h1{
     font-size: 1.4rem;
@@ -2557,12 +2528,6 @@ form input {
     height: 240px;
     width: 240px;
   }
-  .card-1{
-    margin: 60px 10px 0px 10px;
-    height: 320px;
-    width: 480px;
-    padding: 16px 10px 20px 10px;
-  }
   .call-action-content{
     width: 900px; /* Set a width to see effect */
     padding: 10px 180px 70px 190px;
@@ -2729,12 +2694,6 @@ form input {
     height: 240px;
     margin: -100px -20px 0px 80px;
   }
-  .card-1{
-    margin: 60px 6px 0px 8px;
-    height: 320px;
-    width: 480px;
-    padding: 15px 10px 20px 10px;
-  }
   .card-1 h1{
     font-size: 1.3rem;
   }
@@ -2856,12 +2815,6 @@ form input {
   .Testimonials-box2 img{
     height: 240px;
     width: 240px;
-  }
-  .card-1{
-    margin: 60px 5px 0px 8px;
-    height: 320px;
-    width: 470px;
-    padding: 17px 13px 20px 13px;
   }
   .call-action-content{
     width: 900px; 
@@ -2986,7 +2939,6 @@ form input {
   }
   .filter-button {
     padding: 0.6em 1.2em;
- 
   }
   .tab-visual-item {
     width: 230px; 
@@ -3027,7 +2979,7 @@ form input {
 }
 @media only screen and (max-width: 780px) {
   header{
-     background-color: rgb(12, 49, 23);
+    background-color: rgb(12, 49, 23);
   }
   .navlist{
     padding: 20px 0px 50px 0px;
@@ -3108,13 +3060,7 @@ form input {
     margin: -100px -20px 0px 30px;
   }
   #pricing{
-    height: 620px;
-  }
-  .card-1{
-    margin: 60px 4px 0px 8px;
-    height: 300px;
-    width: 510px;
-    padding: 15px 10px 20px 10px;
+    
   }
   .card-1 h1{
     font-size: 1.3rem;
@@ -3321,17 +3267,6 @@ form input {
     height: 250px;
   }
   #pricing{
-    height: 1400px;
-  }
-  .pricing-card-holder{
-    display: flex;
-    flex-direction: column;
-  }
-  .card-1{
-    border-radius: 30px;
-    height: 320px;
-    width: 340px;
-    margin: 20px 0px 70px 0px;
   }
   .card-1 h1{
     border-radius: 40px;
@@ -3471,6 +3406,9 @@ form input {
   }
   .tab-visual-item{
     margin: -170px 0px 0px 20px;
+  }
+  #pricing{
+    padding: 0 10%;
   }
   .call-action-content{
     width: 890px; 
@@ -3945,6 +3883,9 @@ form input {
     align-items: center;
     height: 749px;
   }
+  #pricing{
+    padding: 0 4%;
+  }
   .call-action-content{
     width: 800px; 
     padding: 10px 310px 70px 58px;
@@ -3955,8 +3896,8 @@ form input {
     margin: 0px 0px 0px -30px ;
   }
   #Get-in-Touch{
-      height: 880px;
-    }
+    height: 880px;
+  }
   .reachout-icons i{
     font-size: 37px;
     padding: 20px 17px 0px 17px;
@@ -4837,12 +4778,13 @@ form input {
     padding: 10px 450px 70px 53px;
   }
   #Get-in-Touch{
-    height: 780px;
+    height: 800px;
   }
   .Get-in-Touch-box2{
     background-color: var(--main-blackish);
     width: 310px;
     height: 370px;
+    margin-bottom: 20px;
     overflow-x: visible;
   }
   .reachout-icons i{
@@ -4932,6 +4874,10 @@ form input {
     padding: 2px;
     margin: 0px 0px 0px 110px;
   }
+  #pricing{
+    padding: 0 2%;
+  }
+
   .call-action-content{
     width: 800px; 
     padding: 10px 470px 70px 53px;
@@ -5172,12 +5118,7 @@ form input {
     display: flex;
     flex-direction: column;
   }
-  .card-1{
-    height: 240px;
-    width: 260px;
-    border-radius: 30px;
-    margin: 10px 0px 20px 0px;
-  }
+
   .card-1 h1{
     border-radius: 40px;
     font-size: 20px;
