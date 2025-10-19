@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://peterson-muthomi.vercel.app/sitemap.xml
