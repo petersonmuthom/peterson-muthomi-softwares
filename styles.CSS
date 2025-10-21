@@ -27,7 +27,7 @@
     --main-blackish: #242323;
     --gradient: linear-gradient(45deg, #ff3366, #ff6b6b, #4834d4, #686de0);
     --glass-bg: rgba(255, 255, 255, 0.05);
-    --menu-bar: #242323ee;
+    --menu-bar: rgba(36, 35, 35, 0.986);
     --border: 1px solid rgba(255, 255, 255, 0.1);
     --shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     --big-font: 4rem;
@@ -90,7 +90,7 @@ header{
 opacity: 0;
 }
 .navlist{
-  backdrop-filter: blur(20px);
+
   display: flex;
   margin: 19px 0px 0px 490px;
 }
@@ -623,18 +623,24 @@ section{
 .tab-visual-item.active:hover .overlay,.tab-visual-item.active:hover .overlayFade {
   opacity: 0.6;
 }
-
-
+#Resume{
+  margin-top: 0;
+  overflow: hidden;
+}
 .call-to-action {
   background: url(img/pexels-pixabay-247791\(1\).jpg);
-  background-position: center top;
+  background-position: center bottom;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   position: relative;
   z-index: 1;
-  height: 480px;
+  height: 400px;
   text-align: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 0px;
+  padding: 0;
 }
 
 .call-to-action::before {
@@ -652,25 +658,24 @@ section{
   align-items: center;
 }
 .call-to-action .hr1{
-    margin: 70px 200px 0px -40px ;
+    margin: 0px 200px 0px -40px ;
 }
 .call-to-action .hr2{
   margin: 10px 200px 0px -40px ;
 }
 .call-action-content{
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  width: 980px; 
   text-align: center;
   align-items: center;
-  padding: 10px 0px 70px 380px;
+  justify-content: center;
+  width: 700px;
+  margin: 0px auto auto auto;
     
 }
 .call-action-content .action-title { 
   font-size: 45px;
   font-weight: 700;
   color: var(--text-color2);
-  padding: -10px 0px 20px 0px;
+  padding: -10px 0px 0px 0px;
 }
 
 .call-action-content p {
@@ -814,15 +819,14 @@ section{
 #pricing{
   position: relative;
   width: 100%;
-  height: 700px;
+  height: 100%;
   background: url(img/bg.png);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   align-items: center;
   text-align: center;
-  margin-top: 70px;
-  padding: 0 0%;
+  padding: 0;
 }
 #pricing h3{
   padding: 100px 0px 0px 0px;
@@ -840,7 +844,7 @@ section{
   gap: 24px 4px;
 }
 .card-1{
-  margin: 50px 30px 0px 40px;
+  margin: 40px 30px 80px 30px;
   height: 370px;
   width: 340px;
   padding: 20px 20px 20px 20px;
@@ -1265,6 +1269,9 @@ form input {
     font-size: 23px;
     font-weight: 600;
   }
+  .card-1{
+    margin: 40px 10px 80px 10px;
+  }
   .card-1 h1{
     font-size: 2rem;
   }
@@ -1273,10 +1280,7 @@ form input {
     font-weight: 320;
     font-size: 14.4px;
   }
-  .call-action-content{
-    width: 890px; /* Set a width to see effect */
-    padding: 10px 0px 70px 330px;
-  }
+ 
   .call-action-content .action-title { 
     font-size: 3rem;
     font-weight: 600;
@@ -1437,10 +1441,7 @@ form input {
   .card-1 h1{
     font-size: 2rem;
   }
-  .call-action-content{
-    width: 900px; /* Set a width to see effect */
-    padding: 10px 0px 70px 30%;
-  }
+
   .call-action-content p {
     font-size: 22px;
     font-weight: 500;
@@ -1489,8 +1490,7 @@ form input {
 }
 @media only screen and (max-width: 1182px) {
   .call-action-content{
-    width: 900px; /* Set a width to see effect */
-    padding: 10px 30px 70px 300px;
+
   }
   .Get-in-Touch-box2{
     width: 499px;
@@ -1548,8 +1548,7 @@ form input {
     margin-left: 20px;
   }
   .call-action-content{
-    width: 900px; /* Set a width to see effect */
-    padding: 10px 80px 70px 290px;
+   
   }
   .foo3-bx1{
     margin: 0px -100px 0px 49px;
@@ -1710,7 +1709,9 @@ form input {
     width: 310px;
   }
   #pricing{
-    height: 670px;
+  }
+  .pricing-card-holder{
+    gap: 4px 40px;
   }
   .card-1 h1{
     font-size: 1.6rem;
@@ -1719,8 +1720,7 @@ form input {
     height: 464px;
   }
   .call-action-content{
-    width: 900px;
-    padding: 20px 100px 70px 290px;
+ 
   }
   .call-action-content .action-title { 
     font-size: 2.4rem;
@@ -1734,7 +1734,7 @@ form input {
     font-size: 35px;
     padding: 20px 15px 0px 15px;
   }
-   .Get-in-Touch-box2{
+  .Get-in-Touch-box2{
     width: 480px;
   }
   #footer{
@@ -1818,8 +1818,7 @@ form input {
     margin-left: 20px;
   }
   .call-action-content{
-    width: 900px; /* Set a width to see effect */
-    padding: 10px 100px 70px 240px;
+
   }
   .reachout-icons i{
     font-size: 35px;
@@ -1874,6 +1873,7 @@ form input {
     position: absolute;
     margin: 507px 0px 0px 600px;
     width: 34%;
+    -webkit-backdrop-filter: blur(20px);
     background: var(--menu-bar);
     backdrop-filter: blur(20px);
     border: 1.4px solid var(--main-color);
@@ -2011,8 +2011,7 @@ form input {
     height: 100%;
   }
   .call-action-content{
-    width: 900px; 
-    padding: 10px 100px 70px 200px;
+
   }
   .call-action-content .action-title { 
     font-size: 2.4rem;
@@ -2192,8 +2191,7 @@ form input {
     height: 380px;
   }
   .call-action-content{
-    width: 900px; /* Set a width to see effect */
-    padding: 10px 120px -40px 190px;
+
   }
   .call-action-content .action-title { 
     font-size: 2rem;
@@ -2355,8 +2353,7 @@ form input {
     font-size: 1.4rem;
   }
   .call-action-content{
-    width: 900px; /* Set a width to see effect */
-    padding: 10px 150px 70px 180px;
+  
   }
   .call-action-content .action-title { 
     font-size: 2rem;
@@ -2530,8 +2527,7 @@ form input {
     width: 240px;
   }
   .call-action-content{
-    width: 900px; /* Set a width to see effect */
-    padding: 10px 180px 70px 190px;
+
   }
   .call-action-content .action-title { 
     font-size: 2rem;
@@ -2699,8 +2695,7 @@ form input {
     font-size: 1.3rem;
   }
   .call-action-content{
-    width: 900px; /* Set a width to see effect */
-    padding: 10px 190px 70px 150px;
+   
   }
   .call-action-content .action-title { 
     font-size: 2rem;
@@ -2818,8 +2813,7 @@ form input {
     width: 240px;
   }
   .call-action-content{
-    width: 900px; 
-    padding: 10px 240px 70px 180px;
+
   }
   .call-action-content .action-title { 
     font-size: 2rem;
@@ -2947,8 +2941,8 @@ form input {
     margin: -100px -20px 0px 50px;
   }
   .call-action-content{
-    width: 900px; 
-    padding: 10px 260px 70px 170px;
+    justify-content: center;
+    text-align: center;
   }
   .call-action-content .action-title { 
     font-size: 2rem;
@@ -3067,8 +3061,8 @@ form input {
     font-size: 1.3rem;
   }
   .call-action-content{
-    width: 900px; 
-    padding: 10px 270px 70px 140px;
+    justify-content: center;
+    text-align: center;
   }
   .call-action-content .action-title { 
     font-size: 2rem;
@@ -3277,16 +3271,14 @@ form input {
     height: 400px;
   }
   .call-action-content{
-    width: 900px; 
-    padding: 10px 220px 70px 70px;
+    justify-content: center;
+    text-align: center;
   }
   .call-action-content .action-title { 
     font-size: 2.7rem;
     font-weight: 600;
-    padding: 0px 0px 20px 0px;
   }
   .call-action-content p {
-    margin: -20px 0px 0px 0px;
     font-size: 21px;
     font-weight: 499;
   }
@@ -3294,7 +3286,10 @@ form input {
     margin: 0px 10px 0px 0px;
   }
   .call-to-action .hr2{
-    margin: 10px 200px 0px -40px ;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 10px 0 auto 0;
   }
   #Get-in-Touch{
     height: 870px;
@@ -3412,8 +3407,7 @@ form input {
     padding: 0 10%;
   }
   .call-action-content{
-    width: 890px; 
-    padding: 10px 230px 70px 70px;
+
   }
   .footer-title-text{
     font-size: 67px;
@@ -3498,8 +3492,7 @@ form input {
     height: 400px;
   }
   .call-action-content{
-    width: 880px; 
-    padding: 10px 244px 70px 66px;
+
   }
   .footer-title-text{
     font-size: 65px;
@@ -3634,8 +3627,7 @@ form input {
     margin: 0px 0px 0px 110px;
   }
   .call-action-content{
-    width: 860px; 
-    padding: 10px 270px 70px 66px;
+
   }
   .call-action-content .action-title { 
     font-size: 2.7rem;
@@ -3746,8 +3738,7 @@ form input {
     margin: 0px 0px 0px 110px;
   }
   .call-action-content{
-    width: 820px; 
-    padding: 10px 262px 70px 64px;
+   
   }
   #thanks{
     font-size: 20px;
@@ -3768,8 +3759,7 @@ form input {
     width: 44%;
   }
   .call-action-content{
-    width: 810px; 
-    padding: 10px 280px 70px 62px;
+
   }
   .footer-title-text{
     font-size: 54px;
@@ -3834,8 +3824,7 @@ form input {
     margin: 0px 0px 0px 110px;
   }
   .call-action-content{
-    width: 810px; 
-    padding: 10px 290px 70px 59px;
+
   }
   .two-buttons{
     margin: 0px 0px 0px -40px;
@@ -3888,8 +3877,7 @@ form input {
     padding: 0 4%;
   }
   .call-action-content{
-    width: 800px; 
-    padding: 10px 310px 70px 58px;
+
   }
   .call-action-content .action-title { 
     font-size: 2.7rem;
@@ -4058,8 +4046,7 @@ form input {
     margin: 0px 0px 0px 110px;
   }
   .call-action-content{
-    width: 800px; 
-    padding: 10px 350px 70px 66px;
+ 
   }
   .call-action-content .action-title { 
     font-size: 2rem;
@@ -4162,8 +4149,7 @@ form input {
     margin: 0px 0px 0px 110px;
   }
   .call-action-content{
-    width: 800px; 
-    padding: 10px 370px 70px 60px;
+
   }
   .call-action-content .action-title { 
     font-size: 2rem;
@@ -4436,13 +4422,12 @@ form input {
     margin: 5px 0px 0px 0px;
   }
   .call-action-content{
-    width: 800px; 
-    padding: 10px 400px 70px 57px;
+   
   }
   .call-action-content .action-title { 
     font-size: 2rem;
     font-weight: 600;
-    margin: 0px 0px 0px -30px ;
+ 
   }
   .call-action-content p {
     margin: -20px auto 0px -40px;
