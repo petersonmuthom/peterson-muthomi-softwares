@@ -668,8 +668,7 @@ section{
   align-items: center;
   justify-content: center;
   width: 700px;
-  margin: 0px auto auto auto;
-    
+  margin: 0px auto auto auto;  
 }
 .call-action-content .action-title { 
   font-size: 45px;
@@ -685,8 +684,8 @@ section{
   font-weight: 400;
 }
 .call-action-content ul li { 
-    display: inline-block;
-    margin: 20px 0px 0px 0px;
+  display: inline-block;
+  margin: 20px 0px 0px 0px;
 }
 
 .btn-1{
@@ -720,10 +719,10 @@ section{
 }
 .btn-2:hover{
   transform: translateY(-5px);
-    border: 1.4px solid var(--text-color2);
-    color: var(--text-color2);
-    background-color: var(--bg-color);
-    background-color: var(var(--text-color2))
+  border: 1.4px solid var(--text-color2);
+  color: var(--text-color2);
+  background-color: var(--bg-color);
+  background-color: var(var(--text-color2))
 }
 #Testimonials{
   position: relative;
@@ -744,7 +743,6 @@ section{
 }
 .Testimonials-box1 hr{
   margin: 60px 0px 30px 0px;
-
 }
 .Testimonials-box1 h3{
   color: var(--bg-color);
@@ -772,11 +770,9 @@ section{
   font-size: 24px;
   font-weight: 500;
   margin: 10px 0px -30px 0px;
-
 }
 .Testimonials-box1 a{
   color: var(--main-color);
-
 }
 .Testimonials-box1 a::after {
   content: "";
@@ -895,9 +891,7 @@ section{
   background-size: cover;
   background-position: center;
   display: grid;
-
   align-items: center;
- 
 }
 #Get-in-Touch{
   position: relative;
@@ -1716,11 +1710,12 @@ form input {
   .card-1 h1{
     font-size: 1.6rem;
   }
-  #Resume{
-    height: 464px;
-  }
   .call-action-content{
- 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    margin: 0px auto auto auto;  
   }
   .call-action-content .action-title { 
     font-size: 2.4rem;
@@ -2011,7 +2006,11 @@ form input {
     height: 100%;
   }
   .call-action-content{
-
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin: 0px auto auto auto;  
   }
   .call-action-content .action-title { 
     font-size: 2.4rem;
@@ -3271,10 +3270,17 @@ form input {
     height: 400px;
   }
   .call-action-content{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    margin: 0px auto auto auto; 
+  }
+  .call-action-content{
     justify-content: center;
     text-align: center;
   }
-  .call-action-content .action-title { 
+  .call-action-content h2 { 
     font-size: 2.7rem;
     font-weight: 600;
   }
@@ -3284,12 +3290,6 @@ form input {
   }
   .btn{
     margin: 0px 10px 0px 0px;
-  }
-  .call-to-action .hr2{
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    margin: 10px 0 auto 0;
   }
   #Get-in-Touch{
     height: 870px;
@@ -3407,16 +3407,19 @@ form input {
     padding: 0 10%;
   }
   .call-action-content{
-
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    margin: 0px auto auto auto;  
   }
   .footer-title-text{
-    font-size: 67px;
+    font-size: 60px;
     font-weight: 800;
   }
   .box-3{
     margin: -320px 0px -30px -130px;
   }
-
 }    
 @media only screen and (max-width: 710px) {
   body{
