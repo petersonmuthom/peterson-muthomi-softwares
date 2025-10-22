@@ -1474,6 +1474,9 @@ form input {
   }
 }
 @media only screen and (max-width: 1182px) {
+  .scroll-down{
+    margin: -80px auto auto auto;
+  }
   .Get-in-Touch-box2{
     width: 499px;
   }
@@ -2409,6 +2412,9 @@ form input {
     font-size: 20px;
     font-weight: 500;
   }
+  .scroll-down{
+    margin: -20px auto auto auto;
+  }
   .scroll-down h2{
     font-size: 20px;
     font-weight: -300;
@@ -3052,6 +3058,7 @@ form input {
   .hero-img{
     width: 260px;
     height: 260px;
+    margin-top: -20px;
   }
   .hero-img img{
     margin: 0 auto;
@@ -3074,6 +3081,10 @@ form input {
     font-size: 22px;
     font-weight: 600;
     margin: 0px 0px -30px 0px;
+  }
+  .scroll-down{
+    margin-top: -40px;
+    font-size: 40px;
   }
   .scroll-down h2{
     display: none;
@@ -3448,7 +3459,7 @@ form input {
     justify-content: center;
     width: 600px;
     margin: 0px auto auto auto;  
-}
+  }
   .footer-title-text{
     font-size: 65px;
     font-weight: 800;
@@ -3690,9 +3701,6 @@ form input {
     padding: 2px;
     margin: 0px 0px 0px 110px;
   }
-  .call-action-content{
-   
-  }
   #thanks{
     font-size: 20px;
   }
@@ -3710,9 +3718,6 @@ form input {
   }
   .nav-btn{
     width: 44%;
-  }
-  .call-action-content{
-
   }
   .footer-title-text{
     font-size: 54px;
