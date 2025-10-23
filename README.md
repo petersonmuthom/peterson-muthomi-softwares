@@ -25,4 +25,4 @@ Deployed using GitHub Pages and Vercel.app
 Live Demo
 
 Check out the live site here:
-👉 
+👉 https://peterson-muthomi.vercel.app/
