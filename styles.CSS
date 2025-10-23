@@ -522,7 +522,7 @@ section{
   position: relative;
 }
 .tab-visual-item {
-  filter: grayscale(80%);
+  filter: grayscale(90%);
   visibility: hidden;
   justify-content: flex-start;
   align-items: center;

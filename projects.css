@@ -228,6 +228,11 @@ header{
   flex-direction: column;
   gap: 5px;
 }
+@media (max-width: 1083px) {
+  #project-cards{
+    height: 90%;
+  }
+}
 @media (max-width: 870px) {
   #project-cards{
     height: 90%;
@@ -258,6 +263,9 @@ header{
   }
 }
 @media (max-width: 700px) {
+  #project-cards{
+    height: 1200px;
+  }
   .projects-text{
     font-size: 24px;
     width: 100;
@@ -295,12 +303,13 @@ header{
     width: 370px;
   }
   #project-cards{
-    height: 1300px;
+    height: 1200px;
   }
   .footer{
     height: 490px;
     padding: 40px 20px 40px 20px;
-  }.footer-container {
+  }
+  .footer-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px, 10px;
@@ -322,7 +331,7 @@ header{
     padding: 40px 10px 20px 10px;
   }
   #project-cards{
-    height: 1100px;
+    height: 1200px;
   }
   .pricing-card-holder{
     padding: 0 10px;
