@@ -27,7 +27,7 @@
     --main-blackish: #242323;
     --gradient: linear-gradient(45deg, #ff3366, #ff6b6b, #4834d4, #686de0);
     --glass-bg: rgba(255, 255, 255, 0.05);
-    --menu-bar: rgba(36, 35, 35, 0.986);
+    --menu-bar: #242323fb;
     --border: 1px solid rgba(255, 255, 255, 0.1);
     --shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     --big-font: 4rem;
@@ -273,7 +273,7 @@ section{
 .About-box2{
   height: 380px;
   width: 380px;
-  margin: 120px 30px 0px 160px;
+  margin: 180px auto auto auto;
   border-radius: 50%;
   overflow: hidden;
   display: flex;
@@ -285,6 +285,8 @@ section{
   width: 380px;
   height: 380px;
   object-fit: contain;
+  justify-content: center;
+  align-items: center;
 }
 .scroll-down-about{
   margin: -100px 0px 20px 97px;
@@ -458,20 +460,18 @@ section{
     position: absolute;
     inset: 0%;
   }
-  
-  .tab-content-item {
-
-    grid-column-gap: 1.25em;
-    grid-row-gap: 1.25em;
-    visibility: hidden;
-    flex-flow: column;
-    display: flex;
-    position: absolute;
-    inset: auto 0% 0%;
-    color: var(--text-color2);
+.tab-content-item {
+  grid-column-gap: 1.25em;
+  grid-row-gap: 1.25em;
+  visibility: hidden;
+  flex-flow: column;
+  display: flex;
+  position: absolute;
+  inset: auto 0% 0%;
+  color: var(--text-color2);
 }
 .tab-content-item.active {
-    visibility: visible;
+  visibility: visible;
 }
 .tab-content-item p{
   margin: -5px 0px 20px 0px;
@@ -481,69 +481,58 @@ section{
   font-size: 33px;
   font-weight: 700;
 }
-
-  .tab-layout {
-    
-    grid-row-gap: 3em;
-    flex-flow: wrap;
-    width: 100%;
-    min-height: 37em;
-    display: flex;
-    position: relative;
-  }
-  
-  .filter-bar {
-    background-color: #efeeec0f;
-    border: 1px solid #efeeec14;
-    border-radius: 30px;
-    padding: 4px;
-    display: flex;
-    margin: -6px -40px 0px 70px;
-  }
-  
-  .filter-button {
-    background-color: #0000;
-    border: 1px solid #efeeec00;
-    padding: 1em 2em;
-    transition: border-color .2s;
-    position: relative;
-    text-align: center;
-  }
-  
-  .filter-button.active {
-    border-color: #efeeec4d;
-    border-radius: 30px;
-    text-align: center;
-  }
-  
-  .filter-button__p {
-    
-    font-size: 17px;
-    font-weight: 400;
-    position: relative;
-    color: var(--text-color1);
-  }
-  
-  .tab-visual-wrap {
-
-    width: 100%;
-    height: 100%;
-
-    position: relative;
- 
-  }
-  
-  .tab-visual-item {
-    visibility: hidden;
-    justify-content: flex-start;
-    align-items: center;
-    width: 400px; /* Ensures the image scales to fit the container */
-    height: 400px;
-    object-fit: contain;
-    display: flex;
-    position: absolute;
-    margin: 0px -40px 0px 170px;
-    transition: all 0.4s ease;
+.tab-layout {
+  grid-row-gap: 3em;
+  flex-flow: wrap;
+  width: 100%;
+  min-height: 37em;
+  display: flex;
+  position: relative;
+}
+.filter-bar {
+  background-color: #efeeec0f;
+  border: 1px solid #efeeec14;
+  border-radius: 30px;
+  padding: 4px;
+  display: flex;
+  margin: -6px -40px 0px 70px;
+}
+.filter-button {
+  background-color: #0000;
+  border: 1px solid #efeeec00;
+  padding: 1em 2em;
+  transition: border-color .2s;
+  position: relative;
+  text-align: center;
+}
+.filter-button.active {
+  border-color: #efeeec4d;
+  border-radius: 30px;
+  text-align: center;
+}
+.filter-button__p {
+  font-size: 17px;
+  font-weight: 400;
+  position: relative;
+  color: var(--text-color1);
+}
+.tab-visual-wrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.tab-visual-item {
+  filter: grayscale(80%);
+  visibility: hidden;
+  justify-content: flex-start;
+  align-items: center;
+  width: 400px; /* Ensures the image scales to fit the container */
+  height: 400px;
+  object-fit: contain;
+  display: flex;
+  position: absolute;
+  margin: 0px -40px 0px 170px;
+  transition: all 0.4s ease;
   }
 .tab-visual-item img:hover {
   transform: scale(1.05);
@@ -761,6 +750,7 @@ section{
   margin: 0px 0px 0px 20px;
 }
 .what-clients-say-image img{
+  filter: grayscale(80%);
   height: 100px;
   width: 180px;
   border-radius: 10px;
@@ -1187,7 +1177,6 @@ form input {
   .About-box2{
     height: 360px;
     width: 360px;
-    margin: 120px 0px 0px 110px;
   }
   .About-box2 img{
     height: 360px;
@@ -1376,7 +1365,6 @@ form input {
   .About-box2{
     height: 330px;
     width: 330px;
-    margin: 120px -140px 0px 140px;
   }
   .About-box2 img{
     height: 330px;
@@ -1625,7 +1613,6 @@ form input {
   .About-box2{
     height: 310px;
     width: 310px;
-    margin: 120px -140px 0px 140px;
   }
   .About-box2 img{
     width: 310px; 
@@ -1911,9 +1898,6 @@ form input {
    .About-box2{
     width: 300px;
     height: 300px;
-    align-content: center;
-    align-items: center;
-    margin: 120px 0px 0px 120px;
   }
   .About-box2 img{
     width: 300px;
@@ -2094,7 +2078,6 @@ form input {
   .About-box2{
     height: 280px;
     width: 280px;
-    margin: 120px -300px 0px 140px;
   }
   .About-box2 img{
     height: 280px;
@@ -2417,26 +2400,27 @@ form input {
   }
   .scroll-down h2{
     font-size: 20px;
-    font-weight: -300;
+
   }
   #About{
-    height: 550px;
+    height: 500px;
   }
   .About-box1{
     margin-top: 40px;
   } 
   .About-box1 h3{
-    font-size: 2rem;
+    font-size: 2.4rem;
     font-weight: 600;
+    margin-bottom: 10px;
   }
   .About-box1 p{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
   }
   .About-box2{
     height: 240px;
     width: 240px;
-    margin: 40px 0px 0px 100px;
+    margin: 120px auto auto auto;
   }
   .About-box2 img{
     height: 240px;
@@ -2481,23 +2465,32 @@ form input {
     margin: -100px -20px 0px 90px;
   }
   #Testimonials{
-    height: 560px;
+    height: 500px;
+  }
+  .Testimonials-box1 h3{
+    font-size: 2.4rem;
   }
   .Testimonials-box2{
     height: 240px;
     width: 240px;
-    margin: 120px 0px 0px 100px;
+    margin: 120px auto auto auto;
   }
   .Testimonials-box2 img{
     height: 240px;
     width: 240px;
+  }
+  #pricing h3{
+    font-size: 2.4rem;
+  }
+   #pricing h4{
+    font-size: 20px;
   }
   .call-action-content .action-title { 
     font-size: 2rem;
     font-weight: 590;
   }
   .call-action-content p {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 490;
   }
   #Get-in-Touch{
@@ -2511,6 +2504,14 @@ form input {
     font-size: 32px;
     padding: 20px 14px 0px 14px;
   } 
+  .Get-in-Touch-box1 h3{
+    font-size: 2.4rem;
+    font-weight: 900;
+  }
+  .reach-out-imagee img{
+    width: 170px;
+    height: 110px;
+  }
   .Get-in-Touch-box2{
     width: 370px;
     height: 377px;

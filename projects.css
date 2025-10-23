@@ -178,14 +178,11 @@ header{
   padding: 40px 70px 0px 70px;
   font-family: Arial, sans-serif;
 }
-
 .footer-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-
   max-width: 1200px;
   padding: 0 70px;
-
   text-align: left;
 }
 .footer-profile img {
@@ -268,7 +265,6 @@ header{
   .footer{
     height: 540px;
     padding: 20px 70px 90px 70px;
-
   }
   .footer-container {
     display: grid;
@@ -338,8 +334,21 @@ header{
   }
   .card-1{
     margin: 70px 30px 0 30px;
-    height: 230px;
+    height: 247px;
     width: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-1 h1{
+    width: 97%;
+  }
+  .card-1 img{
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
   }
   .footer{
     height: 490px;
