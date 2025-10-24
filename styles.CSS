@@ -376,24 +376,22 @@ section{
   }
   
   .tab-container {
+    background-color: #4934d4b2;
     grid-column-gap: 3em;
-    grid-row-gap: 3em;
+    grid-row-gap: 2em;
     flex-flow: column;
+    text-align: center;
     justify-content: space-between;
     align-items: flex-start;
     min-height: 100%;
-    margin: 0px 0px -90px 30px;
-    padding: 0px 0px 0px 0px;
-    text-align: center;
+    margin: 0px auto 0px auto;
     display: flex;
   }
-  
   .tab-layout-container {
     width: 100%;
     max-width: 36em;
     height: 100%;
-    margin-left: auto;
-    margin-right: 0;
+    margin: auto;
     padding-top: 1em;
     padding-bottom: 2em;
   }
@@ -445,7 +443,7 @@ section{
   }
   
 .content-p {
-  margin: -14px 0px 0px 0px;
+  margin: -40px 0px 90px 0px;
   font-size: 24px;
   line-height: 1.4;
   color: var(--text-color1);
@@ -474,7 +472,7 @@ section{
   visibility: visible;
 }
 .tab-content-item p{
-  margin: -5px 0px 20px 0px;
+  margin: 30px 0px -10px 0px;
 }
 .tab-content-item p a i{
   color: var(--text-color1);
@@ -531,7 +529,7 @@ section{
   object-fit: contain;
   display: flex;
   position: absolute;
-  margin: 0px -40px 0px 170px;
+  margin: auto auto auto 100px;
   transition: all 0.4s ease;
   }
 .tab-visual-item img:hover {
@@ -543,23 +541,26 @@ section{
   }
   
   .tab-image {
-    width: 480px; /* Ensures the image scales to fit the container */
+    width: 490px; /* Ensures the image scales to fit the container */
     height: 700px;
     object-fit: contain;
 
   }
   
   .tab-content__heading {
+    padding-bottom: -70px;
     letter-spacing: -.02em;
-    margin: 0px 0px 7px 0px;
+    margin: 0px 0px 0px 0px;
     font-size: 24px;
     font-weight: 500;
     line-height: 1;
   }
   
   .tab-layout-heading {
-    margin-top: 0;
-    margin-bottom: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
     font-size: 4em;
     font-weight: 500;
     line-height: 1;
@@ -577,10 +578,8 @@ section{
     position: relative;
   }
 .tab-layout-container hr{
-  margin: 0px 0px -110px -76px;
-  
+  margin: 0px 0px -100px -76px;
 }
-
 .textee {
   color: rgb(0, 0, 0);
   font-size: 20px;
