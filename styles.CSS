@@ -1732,9 +1732,7 @@ form input {
     height: 670px;
     padding-bottom: 80px;
   }
-  #Projects{
-    height: 570px;
-  }
+ 
   .tab-visual-item{
     margin-top: -80px;
   }
@@ -2040,17 +2038,10 @@ form input {
     font-size: 18px;
     font-weight: -300;
   }
-  #Projects{
-    height: 560px;
-    padding: 50px 0px -70px 0px;
-  }
   .tab-content__heading {
     font-size: 18px;
     font-weight: 490;
     line-height: 1;
-  }
-  .tab-content-item p{
-    
   }
   .tab-layout-heading {
     font-size: 2rem;
@@ -2064,7 +2055,6 @@ form input {
   .tab-visual-item{
     width: 280px; 
     height: 280px;
-    margin: -100px -20px 0px 100px;
   }
   .filter-button {
     padding: 0.6em 1.2em;
@@ -2212,9 +2202,6 @@ form input {
     font-weight: 490;
     line-height: 1;
   }
-  .tab-content-item p{
-  
-  }
   .tab-layout-heading {
     font-size: 2rem;
     font-weight: 590;
@@ -2334,7 +2321,7 @@ form input {
     font-size: 20px;
   }
   #About{
-    height: 500px;
+    height: 540px;
   }
   .About-box1{
     margin-top: 40px;
@@ -2358,17 +2345,12 @@ form input {
     width: 240px;
     object-fit: contain;
   }
-   #Projects{
-    height: 550px;
-  }
   .tab-content__heading {
     font-size: 18px;
     font-weight: 490;
     line-height: 1;
   }
-  .tab-content-item p{
- 
-  }
+
   .tab-layout-heading {
     font-size: 2rem;
     font-weight: 590;
@@ -2384,7 +2366,6 @@ form input {
   .tab-visual-item {
     width: 240px; 
     height: 240px;
-    margin: -100px -20px 0px 90px;
   }
   #Testimonials{
     height: 500px;
@@ -2536,17 +2517,13 @@ form input {
     width: 240px;
     object-fit: contain;
   }
-  #Projects{
-    height: 500px;
-  }
+
   .tab-content__heading {
     font-size: 18px;
     font-weight: 490;
     line-height: 1;
   }
-  .tab-content-item p{
-
-  }
+ 
   .tab-layout-heading {
     font-size: 2rem;
     font-weight: 590;
@@ -2560,8 +2537,17 @@ form input {
     padding: 0.6em 1.2em;
   }
   .tab-visual-item {
-    width: 240px; 
-    height: 240px;
+    width: 100px; 
+    height: 200px;
+    margin: auto;
+    padding: 0 0 0 70px;
+  }
+  .tab-image {
+    width: 290px; 
+    height: 700px;
+    margin: 0 auto;
+    object-fit: contain;
+
   }
   .card-1 h1{
     font-size: 1.3rem;
