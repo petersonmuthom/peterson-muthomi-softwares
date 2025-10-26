@@ -376,7 +376,6 @@ section{
   }
   
   .tab-container {
-    background-color: #4934d4b2;
     grid-column-gap: 3em;
     grid-row-gap: 2em;
     flex-flow: column;
@@ -384,16 +383,13 @@ section{
     justify-content: space-between;
     align-items: flex-start;
     min-height: 100%;
-    margin: 0px auto 0px auto;
+    margin: 30px auto 0px auto;
     display: flex;
   }
   .tab-layout-container {
     width: 100%;
-    max-width: 36em;
     height: 100%;
-    margin: auto;
-    padding-top: 1em;
-    padding-bottom: 2em;
+    margin: 70px auto  auto auto;
   }
   
   .tab-container-bottom {
@@ -402,22 +398,22 @@ section{
     justify-content: flex-start;
     align-items: flex-start;
     display: flex;
-    margin: -24px 0px 0px 20px;
+    margin: 190px auto auto auto;
   }
   
   .tab-container-top {
     grid-column-gap: 2em;
     grid-row-gap: 2em;
     flex-flow: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     display: flex;
-    margin: 120px 0px 0px 0px;
+    padding: 0 80px;
+    margin: 180px auto auto auto ;
   }
-  
   .tab-layout-col {
+    padding: 0 0 0 30px;
     width: 50%;
- 
   }
 
 .scroll-down-projects i{
@@ -443,7 +439,7 @@ section{
   }
   
 .content-p {
-  margin: -40px 0px 90px 0px;
+  margin: -40px 0px -40px 0px;
   font-size: 24px;
   line-height: 1.4;
   color: var(--text-color1);
@@ -462,6 +458,10 @@ section{
   grid-column-gap: 1.25em;
   grid-row-gap: 1.25em;
   visibility: hidden;
+  margin: auto;
+  align-items: center;
+  align-content: center;
+  text-align: center;
   flex-flow: column;
   display: flex;
   position: absolute;
@@ -493,7 +493,7 @@ section{
   border-radius: 30px;
   padding: 4px;
   display: flex;
-  margin: -6px -40px 0px 70px;
+  margin: -6px auto auto auto;
 }
 .filter-button {
   background-color: #0000;
@@ -550,7 +550,8 @@ section{
   .tab-content__heading {
     padding-bottom: -70px;
     letter-spacing: -.02em;
-    margin: 0px 0px 0px 0px;
+    margin: auto;
+    text-align: center;
     font-size: 24px;
     font-weight: 500;
     line-height: 1;
@@ -578,7 +579,8 @@ section{
     position: relative;
   }
 .tab-layout-container hr{
-  margin: 0px 0px -100px -76px;
+  width: 93%;
+  margin: -70px auto -200px auto;
 }
 .textee {
   color: rgb(0, 0, 0);
@@ -664,7 +666,6 @@ section{
   color: var(--text-color2);
   padding: -10px 0px 0px 0px;
 }
-
 .call-action-content p {
   color: var(--text-color2); 
   padding: -120px 0px 40px 0px;
@@ -901,7 +902,6 @@ section{
 }
 .Get-in-Touch-box1 hr{
   margin: 50px 0px 50px 0px;
-
 }
 .Get-in-Touch-box1 h3{
   color: var(--bg-color);
@@ -1184,30 +1184,22 @@ form input {
   }
   .tab-visual-item {
     margin-top: -30px;
-    width: 360px;
-    height: 360px;
+    width: 390px;
+    height: 390px;
   }
   .tab-image {
-    width: 300px;
-    height: 300px;
+    width: 390px;
+    height: 390px;
   }
   .tab-content__heading {
     letter-spacing: -.02em;
-    margin: 0px 0px -13px 0px;
     font-size: 23px;
     font-weight: 500;
   }
-  .tab-content-item p{
-    margin: 20px 0px -10px 0px;
-  }
   .tab-layout-heading {
-    margin: 0px 0px 0px 0px;
     font-size: 3rem;
     font-weight: 600;
     line-height: 1;
-  }
-  .tab-layout-container hr{
-    margin: 0px 0px -100px -76px;
   }
   .Testimonials-box1{
     margin: 110px 0px 0px 0px;
@@ -1371,35 +1363,21 @@ form input {
     object-fit: contain;
   }
   .tab-content__heading {
-    margin: 0px 0px -12px 0px;
     font-size: 22px;
     font-weight: 500;
   }
-  .tab-content-item p{
-    margin: 20px 0px -10px 0px;
-  }
   .tab-layout-heading {
-    margin: -30px 0px 0px 0px;
     font-size: 3rem;
     font-weight: 600;
     line-height: 1;
   }
-  .tab-layout-container hr{
-    margin: 0px 0px -80px -70px; 
-  }
-  .tab-container {
-    margin: 0px 0px -90px 10px;
-
-  }
   .filter-bar {
     border-radius: 30px;
     padding: 4px;
-    margin: -6px 0px 0px 44px;
   }
   .tab-visual-item {
-    width: 330px; 
-    height: 330px;
-    margin: -20px -20px 0px 140px;
+    width: 370px; 
+    height: 370px;
   }
   .Testimonials-box1 h3{
     font-size: 3rem;
@@ -1618,36 +1596,27 @@ form input {
     height: 310px;
   }
   #Projects{
-    height: 600px;
+    height: 620px;
     padding-top: 30px;
   }
   .tab-content__heading {
-    margin: -10px 0px 0px -60px;
     font-size: 20px;
     font-weight: 500;
     line-height: 1;
   }
-  .tab-content-item p{
-    margin: 20px 0px -10px -30px;
-  }
   .tab-layout-heading {
-    margin: -50px 0px 0px 0px;
     font-size: 2.4rem;
     font-weight: 600;
     line-height: 1;
   }
-  .tab-layout-container hr{
-    margin: -60px 0px -50px -60px; 
-  }
   .filter-bar {
     padding: 2px;
-    margin: -6px 0px 0px 14px;
   }
-  .tab-container {
-    margin: -60px 0px -80px 50px;
+  .tab-layout-container {
+    margin: 30px auto  auto auto;
   }
   .tab-visual-item{
-    margin-top: -100px;
+    margin-top: -70px;
   }
   #Testimonials{
     height: 570px;
@@ -1894,7 +1863,7 @@ form input {
     font-size: 21px;
     font-weight: 500;
   }
-   .About-box2{
+  .About-box2{
     width: 300px;
     height: 300px;
   }
@@ -1903,41 +1872,25 @@ form input {
     height: 300px;
     object-fit: contain;
   }
-  #Projects{
-    height: 570px;
-    padding: 50px 0px 0px 0px;
-  }
+
   .tab-content__heading {
-    margin: 0px 0px -20px -84px;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 1;
   }
-  .tab-content-item p{
-    margin: 20px 0px -20px -80px;
-  }
   .tab-layout-heading {
-    margin: -40px 0px 0px -40px;
     font-size: 2.7rem;
     font-weight: 600;
     line-height: 1;
   }
-  .tab-layout-container{
-    margin-top: -90px;
-  }
-  .tab-layout-container hr{
-    margin: 0px 0px -30px -57px;
-    width: 110%; 
-  }
   .filter-bar {
     border-radius: 30px;
     padding: 2px;
-    margin: -6px 0px 0px -14px;
   }
   .tab-visual-item {
     width: 340px; 
     height: 340px;
-    margin: -120px -20px 0px 110px;
+    margin: -30px auto auto auto;
   }
   .Testimonials-box1 h3{
     margin: -20px 0px 0px 0px;
@@ -2092,30 +2045,21 @@ form input {
     padding: 50px 0px -70px 0px;
   }
   .tab-content__heading {
-    margin: 0px 0px 0px -100px;
     font-size: 18px;
     font-weight: 490;
     line-height: 1;
   }
   .tab-content-item p{
-    margin: 0px 0px 0px -90px;
+    
   }
   .tab-layout-heading {
-    margin: -50px 0px 0px 0px;
     font-size: 2rem;
     font-weight: 590;
     line-height: 1;
   }
-  .tab-layout-container hr{
-    margin: 0px 0px -50px -54px; 
-  }
   .filter-bar {
     border-radius: 30px;
     padding: 1.4px;
-    margin: -6px 0px 0px 0px;
-  }
-  .tab-container {
-    margin: 0px 0px -90px 50px;
   }
   .tab-visual-item{
     width: 280px; 
@@ -2264,39 +2208,28 @@ form input {
     align-content: center;
   }
   .tab-content__heading {
-    margin: 0px 0px -10px -100px;
     font-size: 18px;
     font-weight: 490;
     line-height: 1;
   }
   .tab-content-item p{
-    margin: 20px 0px -10px -90px;
+  
   }
   .tab-layout-heading {
-    margin: -67px 0px 0px 0px;
     font-size: 2rem;
     font-weight: 590;
     line-height: 1;
   }
-  .tab-layout-container hr{
-    margin: 0px 0px -30px -52px; 
-  }
   .filter-bar {
     border-radius: 30px;
     padding: 1.4px;
-    margin: -6px 0px 0px 0px;
-  }
-  .tab-container {
-    margin: 0px 0px -90px 50px;
   }
   .filter-button {
     padding: 0.6em 1.2em;
- 
   }
   .tab-visual-item {
     width: 280px; 
     height: 280px;
-    margin: -100px -20px 0px 100px;
   }
   #pricing{
     padding: 0 20%;
@@ -2399,7 +2332,6 @@ form input {
   }
   .scroll-down h2{
     font-size: 20px;
-
   }
   #About{
     height: 500px;
@@ -2430,30 +2362,21 @@ form input {
     height: 550px;
   }
   .tab-content__heading {
-    margin: 0px 0px -10px -87px;
     font-size: 18px;
     font-weight: 490;
     line-height: 1;
   }
   .tab-content-item p{
-    margin: 20px 0px -10px -90px;
+ 
   }
   .tab-layout-heading {
-    margin: -67px 0px 0px 0px;
     font-size: 2rem;
     font-weight: 590;
     line-height: 1;
   }
-  .tab-layout-container hr{
-    margin: 0px 0px -30px -47px; 
-  }
   .filter-bar {
     border-radius: 30px;
     padding: 1.4px;
-    margin: -6px 0px 0px 0px;
-  }
-  .tab-container {
-    margin: 0px 0px -90px 50px;
   }
   .filter-button {
     padding: 0.6em 1.2em;
@@ -2617,30 +2540,21 @@ form input {
     height: 500px;
   }
   .tab-content__heading {
-    margin: 0px 0px -10px -85px;
     font-size: 18px;
     font-weight: 490;
     line-height: 1;
   }
   .tab-content-item p{
-    margin: 20px 0px -10px -90px;
+
   }
   .tab-layout-heading {
-    margin: -78px 0px 0px 0px;
     font-size: 2rem;
     font-weight: 590;
     line-height: 1;
   }
-  .tab-layout-container hr{
-    margin: 0px 0px -20px -44px; 
-  }
   .filter-bar {
     border-radius: 30px;
     padding: 1.4px;
-    margin: -6px 0px 0px 0px;
-  }
-  .tab-container {
-    margin: 0px 0px -90px 50px;
   }
   .filter-button {
     padding: 0.6em 1.2em;
@@ -2648,7 +2562,6 @@ form input {
   .tab-visual-item {
     width: 240px; 
     height: 240px;
-    margin: -100px -20px 0px 80px;
   }
   .card-1 h1{
     font-size: 1.3rem;
@@ -2719,30 +2632,21 @@ form input {
     height: 500px;
   }
   .tab-content__heading {
-    margin: 0px 0px -30px -68px;
     font-size: 18px;
     font-weight: 490;
     line-height: 1;
   }
   .tab-content-item p{
-    margin: 40px 0px -18px -70px;
+
   }
   .tab-layout-heading {
-    margin: -78px 0px 0px 0px;
     font-size: 2rem;
     font-weight: 590;
     line-height: 1;
   }
-  .tab-layout-container hr{
-    margin: 0px 0px -20px -44px;
-  }
   .filter-bar {
     border-radius: 30px;
     padding: 1.4px;
-    margin: -6px 0px 0px -4px;
-  }
-  .tab-container {
-    margin: 0px 0px -90px 50px;
   }
   .filter-button {
     padding: 0.6em 1.2em;
@@ -2750,7 +2654,6 @@ form input {
   .tab-visual-item {
     width: 240px; 
     height: 240px;
-    margin: -100px -20px 0px 70px;
   }
   #Testimonials{
     height: 540px;
@@ -2758,7 +2661,6 @@ form input {
   .Testimonials-box2{
     height: 240px;
     width: 240px;
-  
   }
   .Testimonials-box2 img{
     height: 240px;
@@ -2848,34 +2750,25 @@ form input {
     font-size: 20px;
     font-weight: -300;
   }
-   .scroll-down-about{
+  .scroll-down-about{
     align-content: center;
   }
-   .tab-content__heading {
-    margin: 0px 0px -20px -50px;
+  .tab-content__heading {
     font-size: 18px;
     font-weight: 490;
     line-height: 1;
   }
   .tab-content-item p{
-    margin: 20px 0px -10px -90px;
+
   }
   .tab-layout-heading {
-    margin: -87px 0px 0px 0px;
     font-size: 2rem;
     font-weight: 590;
     line-height: 1;
   }
-  .tab-layout-container hr{
-    margin: 0px 0px -10px -37px; 
-  }
   .filter-bar {
     border-radius: 30px;
     padding: 1.4px;
-    margin: -6px 0px 0px 0px;
-  }
-  .tab-container {
-    margin: 0px 0px -90px 43px;
   }
   .filter-button {
     padding: 0.6em 1.2em;
@@ -2883,7 +2776,6 @@ form input {
   .tab-visual-item {
     width: 230px; 
     height: 230px;
-    margin: -100px -20px 0px 50px;
   }
   .call-action-content{
     justify-content: center;
@@ -2960,30 +2852,21 @@ form input {
     height: 500px;
   }
   .tab-content__heading {
-    margin: 0px 0px -10px -40px;
     font-size: 18px;
     font-weight: 490;
     line-height: 1;
   }
   .tab-content-item p{
-    margin: 20px 0px -10px -38px;
+
   }
   .tab-layout-heading {
-    margin: -120px 0px 0px 0px;
     font-size: 2rem;
     font-weight: 590;
     line-height: 1;
   }
-  .tab-layout-container hr{
-    margin: 0px 0px 17px -35px; 
-  }
   .filter-bar {
     border-radius: 30px;
     padding: 1.4px;
-    margin: -6px 0px 0px 0px;
-  }
-  .tab-container {
-    margin: 0px 0px -90px 24px;
   }
   .filter-button {
     padding: 0.6em 1.2em;
@@ -2991,7 +2874,6 @@ form input {
   .tab-visual-item {
     width: 230px; 
     height: 230px;
-    margin: -100px -20px 0px 30px;
   }
   .card-1 h1{
     font-size: 1.3rem;
