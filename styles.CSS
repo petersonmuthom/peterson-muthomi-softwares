@@ -2522,7 +2522,7 @@ form input {
   }
 
   .tab-content__heading {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 490;
     line-height: 1;
   }
@@ -2539,8 +2539,8 @@ form input {
   .filter-button {
     padding: 0.6em 1.2em;
   }
+
   .tab-visual-item {
-    background-color: #4934d4;
     width: 70%; 
     height: 200px;
     margin: auto auto auto;
@@ -2634,18 +2634,21 @@ form input {
   #Projects{
     height: 500px;
   }
+  .tab-container {
+    width: 100%;
+  }
   .tab-content__heading {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 490;
     line-height: 1;
   }
-  .tab-content-item p{
-
-  }
   .tab-layout-heading {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 590;
     line-height: 1;
+  }
+  .tab-container-top{
+    width: 100%;
   }
   .filter-bar {
     border-radius: 30px;
@@ -2757,15 +2760,13 @@ form input {
     align-content: center;
   }
   .tab-content__heading {
-    font-size: 18px;
+    width: 200px;
+    font-size: 17px;
     font-weight: 490;
     line-height: 1;
   }
-  .tab-content-item p{
-
-  }
   .tab-layout-heading {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 590;
     line-height: 1;
   }
@@ -2859,11 +2860,9 @@ form input {
     font-weight: 490;
     line-height: 1;
   }
-  .tab-content-item p{
-
-  }
   .tab-layout-heading {
-    font-size: 2rem;
+    font-size: 1.7rem;
+    width: 200px;
     font-weight: 590;
     line-height: 1;
   }
