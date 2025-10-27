@@ -541,12 +541,11 @@ section{
   }
   
   .tab-image {
-    width: 490px; /* Ensures the image scales to fit the container */
+    width: 490px;
     height: 700px;
     object-fit: contain;
 
   }
-  
   .tab-content__heading {
     padding-bottom: -70px;
     letter-spacing: -.02em;
@@ -2537,10 +2536,11 @@ form input {
     padding: 0.6em 1.2em;
   }
   .tab-visual-item {
-    width: 100px; 
+    background-color: #4934d4;
+    width: 70%; 
     height: 200px;
-    margin: auto;
-    padding: 0 0 0 70px;
+    margin: auto auto auto;
+    padding: 0 70px;
   }
   .tab-image {
     width: 290px; 
@@ -2563,6 +2563,19 @@ form input {
   .reachout-icons i{
     font-size: 30px;
     padding: 20px 14px 0px 14px;
+  }
+  .Get-in-Touch-box2{
+    margin: 149px auto auto auto;
+    height: 330px;
+    width: 340px;
+  }
+  .contacts-inputs{
+    width: 270px;
+    height: 37px;
+    font-size: 18px;
+  }
+  .contact-left{
+    gap: 14px;
   }
   .footer-title-text{
     font-size: 83px;
