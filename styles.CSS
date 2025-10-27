@@ -2414,13 +2414,17 @@ form input {
     width: 170px;
     height: 110px;
   }
+  .contact-left{
+    gap: 15px;
+  }
   .Get-in-Touch-box2{
+    margin-top: 60px;
     width: 370px;
-    height: 377px;
+    height: 340px;
   }
   .contacts-inputs{
     width: 300px;
-    height: 40px;
+    height: 37px;
   }
   .footer-title-text{
     font-size: 87px;
