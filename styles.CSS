@@ -3932,33 +3932,26 @@ form input {
     height: 760px;
   }
   .tab-visual-wrap{
-    margin: 280px 0px 0px -170px;
+    
   }
   .tab-container {
-    margin: 370px -90px -170px -27px;
-    padding: 0px -40px 0px 80px;
+  
   }
   .tab-layout-container{
     width: 100vw;
   }
   .tab-layout-container hr{
-    left: 10%;
-    transform: translateX(-50%);
-    width: 230%;
-    border: none;
-    margin: -110px 40px -240px -40px;
+   
   }
   .tab-content__heading {
-    margin: -160px -200px -70px 10px;
     font-size: 21px;
     font-weight: 500;
     line-height: 1;
   }
   .tab-content-item p{
-    margin: 80px 0px -170px 180px;
+
   }
   .tab-layout-heading {
-    margin: -247px -100px 0px 70px;
     font-size: 2rem;
     font-weight: 600;
     line-height: 1;
@@ -3966,7 +3959,7 @@ form input {
   .filter-bar {
     border-radius: 30px;
     padding: 2px;
-    margin: 0px 0px 0px 110px;
+
   }
   .call-action-content{
     width: 440px;
@@ -4128,33 +4121,26 @@ form input {
     background-attachment: scroll;
   }
   .tab-visual-wrap{
-    margin: 280px 0px 0px -170px;
+   
   }
   .tab-container {
-    margin: 370px -90px -170px -50px;
-    padding: 0px -40px 0px 80px;
+
   }
   .tab-layout-container{
     width: 100vw;
   }
   .tab-layout-container hr{
-    left: 10%;
-    transform: translateX(-50%);
-    width: 220%;
-    border: none;
-    margin: -110px 40px -240px -20px;
+    
   }
   .tab-content__heading {
-    margin: -160px -220px -70px 60px;
     font-size: 18px;
     font-weight: 500;
     line-height: 1;
   }
   .tab-content-item p{
-    margin: 80px 0px -170px 180px;
+    
   }
   .tab-layout-heading {
-    margin: -247px -100px 0px 100px;
     font-size: 2rem;
     font-weight: 600;
     line-height: 1;
@@ -4162,7 +4148,6 @@ form input {
   .filter-bar {
     border-radius: 30px;
     padding: 2px;
-    margin: 0px 0px 0px 110px;
   }
    #Testimonials{
     grid-template-columns: 1fr;
@@ -4353,33 +4338,25 @@ form input {
     margin: -20px auto auto auto;
   }
   .tab-visual-wrap{
-    margin: 280px 0px 0px -170px;
   }
   .tab-container {
-    margin: 370px -90px -170px -70px;
-    padding: 0px -40px 0px 80px;
+   
   }
   .tab-layout-container{
     width: 100vw;
   }
   .tab-layout-container hr{
-    left: 10%;
-    transform: translateX(-50%);
-    width: 230%;
-    border: none;
-    margin: -110px 40px -240px -40px;
+   
   }
   .tab-content__heading {
-    margin: -160px -230px -70px 60px;
     font-size: 21px;
     font-weight: 500;
     line-height: 1;
   }
   .tab-content-item p{
-    margin: 80px 0px -170px 180px;
+  
   }
   .tab-layout-heading {
-    margin: -247px -100px 0px 70px;
     font-size: 2rem;
     font-weight: 600;
     line-height: 1;
@@ -4387,7 +4364,6 @@ form input {
   .filter-bar {
     border-radius: 30px;
     padding: 2px;
-    margin: 0px 0px 0px 110px;
   }
   .call-action-content .action-title { 
     font-size: 2rem;
@@ -4450,33 +4426,25 @@ form input {
     width: 50%;
   }
   .tab-visual-wrap{
-    margin: 280px 0px 0px -170px;
+   
   }
   .tab-container {
-    margin: 370px -90px -170px -74px;
-    padding: 0px -40px 0px 80px;
   }
   .tab-layout-container{
     width: 100vw;
   }
   .tab-layout-container hr{
-    left: 10%;
-    transform: translateX(-50%);
-    width: 230%;
-    border: none;
-    margin: -110px 40px -240px -40px;
+    
   }
   .tab-content__heading {
-    margin: -160px -230px -70px 60px;
     font-size: 20px;
     font-weight: 500;
     line-height: 1;
   }
   .tab-content-item p{
-    margin: 80px 0px -170px 180px;
+    
   }
   .tab-layout-heading {
-    margin: -247px -100px 0px 70px;
     font-size: 2.7rem;
     font-weight: 600;
     line-height: 1;
@@ -4484,7 +4452,6 @@ form input {
   .filter-bar {
     border-radius: 30px;
     padding: 2px;
-    margin: 0px 0px 0px 110px;
   }
   .call-to-action {
     height: 380px;
@@ -4618,33 +4585,23 @@ form input {
     margin: -30px auto auto auto;
   }
   .tab-visual-wrap{
-    margin: 280px 0px 0px -170px;
-  }
-  .tab-container {
-    margin: 370px -90px -170px -74px;
-    padding: 0px -40px 0px 80px;
+   
   }
   .tab-layout-container{
     width: 100vw;
   }
   .tab-layout-container hr{
-    left: 10%;
-    transform: translateX(-50%);
-    width: 230%;
-    border: none;
-    margin: -110px 40px -240px -40px;
+  
   }
   .tab-content__heading {
-    margin: -160px -230px -70px 60px;
     font-size: 21px;
     font-weight: 500;
     line-height: 1;
   }
   .tab-content-item p{
-    margin: 80px 0px -170px 180px;
+  
   }
   .tab-layout-heading {
-    margin: -247px -100px 0px 70px;
     font-size: 2.7rem;
     font-weight: 600;
     line-height: 1;
@@ -4652,7 +4609,6 @@ form input {
   .filter-bar {
     border-radius: 30px;
     padding: 2px;
-    margin: 0px 0px 0px 110px;
   }
   #pricing{
     padding: 0 2%;
@@ -4799,33 +4755,26 @@ form input {
     z-index: 2;
   } 
   .tab-visual-wrap{
-    margin: 280px 0px 0px -170px;
+    
   }
   .tab-container {
-    margin: 370px -90px -170px -74px;
-    padding: 0px -40px 0px 80px;
+  
   }
   .tab-layout-container{
     width: 100vw;
   }
   .tab-layout-container hr{
-    left: 10%;
-    transform: translateX(-50%);
-    width: 230%;
-    border: none;
-    margin: -110px 40px -240px -40px;
+    
   }
   .tab-content__heading {
-    margin: -160px -230px -70px 60px;
     font-size: 21px;
     font-weight: 500;
     line-height: 1;
   }
   .tab-content-item p{
-    margin: 80px 0px -170px 180px;
+   
   }
   .tab-layout-heading {
-    margin: -247px -100px 0px 70px;
     font-size: 2.7rem;
     font-weight: 600;
     line-height: 1;
@@ -4833,7 +4782,6 @@ form input {
   .filter-bar {
     border-radius: 30px;
     padding: 2px;
-    margin: 0px 0px 0px 110px;
   }
    #Testimonials{
     grid-template-columns: 1fr;
@@ -5053,34 +5001,27 @@ form input {
     content: "";
     z-index: 2;
   } 
-   .tab-visual-wrap{
-    margin: 280px 0px 0px -170px;
+  .tab-visual-wrap{
+
   }
   .tab-container {
-    margin: 370px -90px -170px -74px;
-    padding: 0px -40px 0px 80px;
+  
   }
   .tab-layout-container{
     width: 100vw;
   }
   .tab-layout-container hr{
-    left: 10%;
-    transform: translateX(-50%);
-    width: 230%;
-    border: none;
-    margin: -110px 40px -240px -40px;
+  
   }
   .tab-content__heading {
-    margin: -160px -230px -70px 60px;
     font-size: 21px;
     font-weight: 500;
     line-height: 1;
   }
   .tab-content-item p{
-    margin: 80px 0px -170px 180px;
+   
   }
   .tab-layout-heading {
-    margin: -247px -100px 0px 70px;
     font-size: 2.7rem;
     font-weight: 600;
     line-height: 1;
@@ -5088,7 +5029,6 @@ form input {
   .filter-bar {
     border-radius: 30px;
     padding: 2px;
-    margin: 0px 0px 0px 110px;
   }
    #Testimonials{
     grid-template-columns: 1fr;
