@@ -422,13 +422,12 @@ section{
   font-weight: 700;
   color: var(--text-color2);
 }
-  
-  .tab-content-wrap {
-    width: 100%;
-    min-width: 24em;
-    position: relative;
-    margin: -100px 0px 110px 0px;
-  }
+.tab-content-wrap {
+  width: 100%;
+  min-width: 24em;
+  position: relative;
+  margin: -100px 0px 110px 0px;
+}
   
   .content-button__bg {
 
@@ -529,7 +528,7 @@ section{
   object-fit: contain;
   display: flex;
   position: absolute;
-  margin: auto auto auto 100px;
+  margin: auto auto auto 50px;
   transition: all 0.4s ease;
   }
 .tab-visual-item img:hover {
@@ -3020,13 +3019,14 @@ form input {
     align-items: center;
   }
   .tab-container {
-    margin: auto;
+    margin: 30px auto auto auto;
     justify-content: center;
   }
   .tab-layout-col{
-    padding: 0 0 0 0 ;
+    padding: 0 0 0 0;
   }
   .tab-layout-container{
+    justify-content: center;
     margin: auto;
     grid-template-columns: 1fr;
     width: 100vw;
@@ -3057,7 +3057,7 @@ form input {
   .tab-visual-item{
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: auto auto auto auto;
   }
   .tab-image{
     margin: 0 auto;
