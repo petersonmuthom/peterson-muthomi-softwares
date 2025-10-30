@@ -438,7 +438,7 @@ section{
   }
   
 .content-p {
-  margin: -40px 0px -40px 0px;
+  margin: auto;
   font-size: 24px;
   line-height: 1.4;
   color: var(--text-color1);
@@ -471,7 +471,7 @@ section{
   visibility: visible;
 }
 .tab-content-item p{
-  margin: 30px 0px -10px 0px;
+  margin: 20px auto auto auto;
 }
 .tab-content-item p a i{
   color: var(--text-color1);
@@ -3013,10 +3013,10 @@ form input {
     height: 800px;
   }
   .tab-layout-container hr{
-    margin: -140px auto -200px auto;
+    margin: -180px auto -200px auto;
   }
   .cloneable {
-    margin-top: 120px;
+    margin-top: 140px;
     padding: 0;
     justify-content: center;
     align-items: center;
@@ -3060,6 +3060,9 @@ form input {
     margin: 10px auto auto auto;
     border-radius: 30px;
     padding: 2px;
+  }
+  .content-p{
+    margin: 140px auto auto auto;
   }
   .tab-visual-wrap{
  
@@ -3319,9 +3322,6 @@ form input {
     font-weight: 490;
     padding: 10px 10px 10px 10px ;
     margin: 40px 0px 40px 0px;
-  }
-  #Projects{
-    height: 610px;
   }
   .tab-visual-wrap{
 
