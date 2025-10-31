@@ -4250,9 +4250,7 @@ form input {
   .About-box2{
     margin: -20px auto auto auto;
   }
-  .tab-layout-container{
-    width: 100vw;
-  }
+ 
   .tab-content__heading {
     font-size: 21px;
     font-weight: 500;
@@ -4345,8 +4343,8 @@ form input {
   .tab-layout-heading {
     font-size: 1.9rem;
     font-weight: 600;
-    line-height: 1;
-    width: 100%;
+    line-height: 1; 
+    white-space: nowrap;
   }
   .filter-bar {
     border-radius: 30px;
@@ -4492,8 +4490,9 @@ form input {
     line-height: 1;
   }
   .tab-layout-heading {
-    font-size: 2.7rem;
+    font-size: 1.8rem;
     font-weight: 600;
+    white-space: nowrap;
     line-height: 1;
   }
   .filter-bar {
@@ -4643,29 +4642,17 @@ form input {
     height: 100%;
     content: "";
     z-index: 2;
-  } 
-  .tab-visual-wrap{
-    
-  }
-  .tab-container {
-  
   }
   .tab-layout-container{
     width: 100vw;
-  }
-  .tab-layout-container hr{
-    
   }
   .tab-content__heading {
     font-size: 21px;
     font-weight: 500;
     line-height: 1;
   }
-  .tab-content-item p{
-   
-  }
   .tab-layout-heading {
-    font-size: 2.7rem;
+    font-size: 1.7rem;
     font-weight: 600;
     line-height: 1;
   }
@@ -4891,28 +4878,16 @@ form input {
     content: "";
     z-index: 2;
   } 
-  .tab-visual-wrap{
-
-  }
-  .tab-container {
-  
-  }
   .tab-layout-container{
     width: 100vw;
-  }
-  .tab-layout-container hr{
-  
   }
   .tab-content__heading {
     font-size: 21px;
     font-weight: 500;
     line-height: 1;
   }
-  .tab-content-item p{
-   
-  }
   .tab-layout-heading {
-    font-size: 2.7rem;
+    font-size: 1.7rem;
     font-weight: 600;
     line-height: 1;
   }
