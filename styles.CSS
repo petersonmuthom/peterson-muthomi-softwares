@@ -4278,6 +4278,12 @@ form input {
     font-size: 2rem;
     font-weight: 600;
   }
+  #Get-in-Touch{
+    height: 900px;
+  }
+  .Get-in-Touch-box1 {
+    margin: 70px 0px 0px 0px;
+  }
   .call-action-content p {
     font-size: 19px;
     font-weight: 499;
@@ -4286,9 +4292,6 @@ form input {
     width: 340px;
     height: 400px;
     margin: -40px auto 0px auto;
-  }
-  .Get-in-Touch-box1 {
-    margin: 47px 0px 0px 0px;
   }
   .reachout-icons i{
     font-size: 31px;
@@ -4431,7 +4434,10 @@ form input {
     font-size: 17px;
   }
   #Get-in-Touch{
-    height: 800px;
+    height: 840px;
+  }
+  .Get-in-Touch-box1 {
+    margin: 120px 0px 0px 0px;
   }
   .Get-in-Touch-box2{
     background-color: var(--main-blackish);
