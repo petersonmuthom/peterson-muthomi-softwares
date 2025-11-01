@@ -617,7 +617,7 @@ section{
   background-repeat: no-repeat;
   position: relative;
   z-index: 1;
-  height: 400px;
+  height: 440px;
   text-align: center;
   align-content: center;
   justify-content: center;
@@ -648,14 +648,14 @@ section{
   transform: translateX(-50%);
 }
 .call-action-content::after {
-  bottom: 80px; /* Line below */
+  bottom: 100px; /* Line below */
 }
 .call-action-content{
   text-align: center;
   align-items: center;
   justify-content: center;
   width: 700px;
-  margin: 0px auto auto auto;  
+  margin: -40px auto auto auto;  
 }
 .call-action-content .action-title { 
   justify-content: center;
@@ -884,7 +884,7 @@ section{
 #Get-in-Touch{
   position: relative;
   width: 100%;
-  height: 680px;
+  height: 600px;
   background: url(img/white\ bg.png);
   background-attachment: fixed;
   text-align: center;
@@ -2089,7 +2089,11 @@ form input {
     font-size: 18px;
     font-weight: 490;
   }
+  .call-action-content::after {
+    bottom: 80px; /* Line below */
+  }
   #Get-in-Touch{
+    height: 610px;
     margin: -84px 0px 0px 0px;
     padding-top: -470px;
   }
@@ -3813,7 +3817,7 @@ form input {
     font-weight: 499;
   }
   .Get-in-Touch-box1 {
-    margin: 70px 0px 0px 0px;
+    margin: 110px 0px 0px 0px;
   }
   .Get-in-Touch-box2{
     width: 420px;
@@ -3831,7 +3835,8 @@ form input {
    .footer{
     height: 490px;
     padding: 40px 20px 40px 20px;
-  }.footer-container {
+  }
+  .footer-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px, 10px;
@@ -4136,6 +4141,7 @@ form input {
   }
   .call-action-content{
     width: 390px;
+    margin: -30px auto auto auto;
   }
   .call-action-content .action-title { 
     font-size: 2rem;
@@ -4145,12 +4151,15 @@ form input {
     font-size: 19px;
     font-weight: 499;
   }
+  .call-action-content::after {
+    bottom: 80px; /* Line below */
+  }
   #Get-in-Touch{
-    height: 790px;
+    height: 870px;
     background-attachment: scroll;
   }
   .Get-in-Touch-box1 {
-    margin: 40px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
   }
   .Get-in-Touch-box2{
     width: 370px;
